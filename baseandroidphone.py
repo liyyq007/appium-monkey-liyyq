@@ -1,94 +1,83 @@
 
 # -*- coding: utf-8 -*-
 
-import subprocess
-
 import os
-import random
+import re
+import math
+from math import ceil
+import subprocess
+from BaseAdb import *
+# 得到手机信息
+def getPhoneInfo(devices):
+    cmd = "adb -s " + devices +" shell cat /system/build.prop "
+    # print cmd
+    # phone_info = os.popen(cmd).readlines()
+    phone_info = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.readlines()
+    result = {"release": "5.0", "model": "model2", "brand": "brand1", "device": "device1"}
+    release = "ro.build.version.release=" # 版本
+    model = "ro.product.model=" #型号
+    brand = "ro.product.brand=" # 品牌
+    device = "ro.product.device=" # 设备名
+    for line in phone_info:
+         for i in line.split():
+            temp = i.decode()
+            if temp.find(release) >= 0:
+                result["release"] = temp[len(release):]
+                break
+            if temp.find(model) >= 0:
+                result["model"] = temp[len(model):]
+                break
+            if temp.find(brand) >= 0:
+                result["brand"] = temp[len(brand):]
+                break
+            if temp.find(device) >= 0:
+                result["device"] = temp[len(device) :]
+                break
+    # print result
+    return result
 
+# 得到最大运行内存
+def get_men_total(devices):
+    cmd = "adb -s "+devices+ " shell cat /proc/meminfo"
+    get_cmd = os.popen(cmd).readlines()
+    men_total = 0
+    men_total_str = "MemTotal"
+    for line in get_cmd:
+        if line.find(men_total_str) >= 0:
+            men_total = line[len(men_total_str) +1:].replace("kB", "").strip()
+            break
+    return int(men_total)
+# 得到几核cpu
+def get_cpu_kel(devices):
+    cmd = "adb -s " +devices +" shell cat /proc/cpuinfo"
+    get_cmd = os.popen(cmd).readlines()
+    find_str = "processor"
+    int_cpu = 0
+    for line in get_cmd:
+        if line.find(find_str) >= 0:
+            int_cpu += 1
+    return str(int_cpu) + "核"
 
-class AndroidDebugBridge(object):
-    def call_adb(self, command):
-        command_result = ''
-        command_text = 'adb %s' % command
-        # print(command_text)
-        results = os.popen(command_text, "r")
-        while 1:
-            line = results.readline()
-            if not line: break
-            command_result += line
-        results.close()
-        return command_result
+# 得到手机分辨率
+def get_app_pix(devices):
+    result = os.popen("adb -s " + devices+ " shell wm size", "r")
+    return result.readline().split("Physical size:")[1]
 
-    # check for any fastboot device
-    def fastboot(self, device_id):
+if __name__=="__main__":
+    devicess = AndroidDebugBridge().attached_devices()
+    if len(devicess) > 0:
+        l_devices = []
+        for dev in devicess:
+            app = {}
+            app["devices"] = dev
+            app["port"] = str(random.randint(4700, 4900))
+            app["bport"] = str(random.randint(4700, 4900))
+            app["systemPort"] = str(random.randint(4700, 4900))
+            l_devices.append(app)
+
+    for i in range(0, len(l_devices)):
         pass
 
-    # 检查设备
-    def attached_devices(self):
-        # result = self.call_adb("devices")
-        devices = []
-        result = subprocess.Popen("adb devices", shell=True, stdout=subprocess.PIPE,
-                                         stderr=subprocess.PIPE).stdout.readlines()
+    print l_devices[i]["devices"]
 
-        for item in result:
-            t = item.decode().split("\tdevice")
-            if len(t) >= 2:
-                devices.append(t[0])
-        # print(result)
-        # print(devices)
-        return devices
-    # 状态
-    def get_state(self):
-        result = self.call_adb("get-state")
-        result = result.strip(' \t\n\r')
-        return result or None
-    #重启
-    def reboot(self, option):
-        command = "reboot"
-        if len(option) > 7 and option in ("bootloader", "recovery",):
-            command = "%s %s" % (command, option.strip())
-        self.call_adb(command)
-
-    # 将电脑文件拷贝到手机里面
-    def push(self, local, remote):
-        result = self.call_adb("push %s %s" % (local, remote))
-        return result
-
-    # 拉数据到本地
-    def pull(self, remote, local):
-        result = self.call_adb("pull %s %s" % (remote, local))
-        return result
-    # 同步更新 很少用此命名
-    def sync(self, directory, **kwargs):
-        command = "sync %s" % directory
-        if 'list' in kwargs:
-            command += " -l"
-            result = self.call_adb(command)
-            return result
-
-    # 打开指定app
-    def open_app(self,packagename,activity):
-        result = self.call_adb("shell am start -n %s/%s" % (packagename, activity))
-        check = result.partition('\n')[2].replace('\n', '').split('\t ')
-        if check[0].find("Error") >= 1:
-            return False
-        else:
-            return True
-
-    # 根据包名得到进程id
-    def get_app_pid(self, pkg_name):
-        string = self.call_adb("shell ps | grep "+pkg_name)
-        # print(string)
-        if string == '':
-            return "the process doesn't exist."
-        result = string.split(" ")
-        # print(result[4])
-        return result[4]
-
-if __name__ == '__main__':
-
-    reuslt = AndroidDebugBridge().attached_devices()
-    print reuslt
-
-    print(os.popen("adb devices", 'r').read())
+    getPhoneInfo(l_devices[i]["devices"])
