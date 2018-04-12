@@ -6,25 +6,30 @@ import os
 import random
 from BaseAdb import AndroidDebugBridge
 from BaseAndroidPhone import getPhoneInfo
-
+from LogcatAndroid import logcat
 
 PATH = lambda p: os.path.abspath(
     os.path.join(os.path.dirname(__file__), p)
 )
 
-x=raw_input(u'请输入MONKEY循环次数:')
+# x=raw_input(u'请输入MONKEY循环次数:')
 
 def swipeLeft():
-    width = driver().get_window_size()["width"]
-    height = driver().get_window_size()["height"]
+    drivers=driver()
+    print '111'
+    width = drivers.get_window_size()["width"]
+    print '222'
+    height = drivers.get_window_size()["height"]
     x1 = int(width * 0.75)
     y1 = int(height * 0.5)
     x2 = int(width * 0.25)
     driver().swipe(x1, y1, x2, y1, 600)
+    print '333'
 
 def swiperandom():
-    width = driver().get_window_size()["width"]
-    height = driver().get_window_size()["height"]
+    drivers=driver()
+    width = drivers.get_window_size()["width"]
+    height = drivers.get_window_size()["height"]
     list_parmas=[0.25,0.75]
     x1 = int(width * list_parmas[random.randint(0,1)])
     y1 = int(height * list_parmas[random.randint(0,1)])
@@ -68,9 +73,12 @@ def desired_caps():
     desired_caps['resetKeyboard']= True    #运行完成后重置软键盘的状态　　
     return desired_caps
 
-def driver():
-    driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps())
-    return driver
+driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps())
+#启动，drivers=driver()多次调用相当于重复启动----错误
+# def driver():
+#     driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps())
+#     print driver
+#     return driver
 
 def test_case():
     # lisst=driver.find_elements_by_xpath('//*')
@@ -78,24 +86,29 @@ def test_case():
     # print "-------------------------------"
     # aa=driver.current_activity
     # print aa
-    driver()
-    print "================================="
-    #跳过导航页
-    time.sleep(4)
-    swipeLeft()
-    swipeLeft()
-    time.sleep(1)
-    # driver.find_elements_by_name('立即体验').click()
-    driver().find_element_by_id("com.bkjk.apollo.test:id/btn_enter_home").click()
+    try:
+        print "================================="
+        #跳过导航页
+        driver.implicitly_wait(5)
+        time.sleep(4)
+        print 'sleep444444'
+        swipeLeft()
+        swipeLeft()
+        time.sleep(1)
+        # driver.find_elements_by_name('立即体验').click()
+        print 'is enable?',driver.find_element_by_id("com.bkjk.apollo.test:id/btn_enter_home").is_enabled()
+        driver.find_element_by_id("com.bkjk.apollo.test:id/btn_enter_home").click()
+    except Exception as e:
+        print e
     count = 0
     error_count=0
-    while (count < int(x)):
+    while (count < int(50)):
     # while True:
         try:
             # time.sleep(1)
             print '-------------start-------------------'
-            print driver().current_activity
-            result=driver().page_source
+            print driver.current_activity
+            result=driver.page_source
             print "--------------id all-----------------"
             id_result=re.findall('resource-id="(.*?)" instance=',result,re.S)
             #当前页面全部id
@@ -117,17 +130,17 @@ def test_case():
                 pass
             else:
                 print 'no'
-                driver()
+                driver2 = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps())
                 time.sleep(4)
                 swipeLeft()
                 swipeLeft()
                 time.sleep(1)
                 # driver.find_elements_by_name('立即体验').click()
-                driver().find_element_by_id("com.bkjk.apollo.test:id/btn_enter_home").click()
+                driver2.find_element_by_id("com.bkjk.apollo.test:id/btn_enter_home").click()
                 continue
 
             print "~~~~~~~~~~~~~~~~~monkey~~~~~~~~~~~~~~~~~~~~~~"
-            ee = driver().find_element_by_id(cc).is_enabled()
+            ee = driver.find_element_by_id(cc).is_enabled()
             print 'isenable:', ee
             rate = random.randint(1,10)
             if rate==1:
@@ -136,7 +149,7 @@ def test_case():
                 print 'swipe:',swiperandom()
             elif rate==2:
                 # print activity + ' Key Back'
-                driver().press_keycode(4)
+                driver.press_keycode(4)
                 print 'Key Back'
             else:
                 # print activity + ' Scroll Up'
@@ -144,7 +157,7 @@ def test_case():
                     swiperandom()
                     print 'swipe:', swiperandom()
                 else:
-                    driver().find_element_by_id(cc).click()
+                    driver.find_element_by_id(cc).click()
                     print 'click:',cc
 
             count = count + 1
@@ -158,16 +171,13 @@ def test_case():
     print "count:",count
     print 'message:',error_count
 
-
 if __name__ == '__main__':
     # print desired_caps()['appPackage']
     # devices_info()
     print "-----------所有连接的设备-----------"
     print devices_info()
+
     test_case()
-    driver().quit()
-
-
 
     # else:
     #     btn_list = driver.find_elements_by_android_uiautomator('new UiSelector().clickable(true)')
