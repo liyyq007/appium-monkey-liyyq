@@ -7,9 +7,10 @@ import sys
 def logcat(packageName):
     cmd = 'adb shell "logcat | grep --color=always -E \"%s\" "'% packageName
     os.system(cmd)
-    print os.system(cmd)
+    # print os.system(cmd)
 
 if __name__ == '__main__':
     logcat('com.bkjk.apollo.test')
+    print '111111111111111111111111111111111111111111111111111111111111111111111111111111111111'
 
 
