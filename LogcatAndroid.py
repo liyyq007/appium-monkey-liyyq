@@ -1,16 +1,42 @@
 #!/usr/bin/env python
-#coding:utf-8
+# coding:utf-8
 
 import os
 import sys
+import subprocess
+
+from get_package_pid import get_pid
+
+def logcat_filein(packageName):
+    # logcat_file=open('log1.txt','w')
+    cmd = 'adb shell "logcat |grep --color=always -E \"%s\""  '% get_pid(packageName)
+    # cmd = 'adb logcat '
+    # cmd='adb shell "logcat | grep --color=always -E \"com.bkjk.apollo.test\"" -f D:/test/appium-monkey-liyyq/log.txt -s "TAG：*"'
+    # os.popen(cmd)
+    # print os.system(cmd)
+    return cmd
 
 def logcat(packageName):
-    cmd = 'adb shell "logcat | grep --color=always -E \"%s\" "'% packageName
-    os.system(cmd)
+    # logcat_file=open('log1.txt','w')
+    cmd = 'adb shell "logcat | grep --color=always -E \"%s\""'% packageName
+    # cmd='adb shell "logcat | grep --color=always -E \"com.bkjk.apollo.test\"" -f D:/test/appium-monkey-liyyq/log.txt -s "TAG：*"'
+    # os.system(cmd)
     # print os.system(cmd)
+    return cmd
 
+# pp=subprocess.Popen('adb shell logcat >> 111.txt')
+# pp.terminate()
+# pp=subprocess.Popen('adb  logcat -v time')
+# pp.terminate()
+# p=subprocess.Popen(logcat_filein('com.bkjk.apollo.test','111.txt'))
 if __name__ == '__main__':
-    logcat('com.bkjk.apollo.test')
-    print '111111111111111111111111111111111111111111111111111111111111111111111111111111111111'
+    # p=subprocess.Popen(logcat_filein('com.bkjk.apollo.test','112.txt'))
+    p = subprocess.Popen('adb shell logcat >> 111.txt')
+    print logcat_filein('com.bkjk.apollo.test','111.txt')
+    p.terminate()
+
+
+    # print logcat('com.bkjk.apollo.test')
+    # print '111111111111111111111111111111111111111111111111111111111111111111111111111111111111'
 
 

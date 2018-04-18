@@ -1,18 +1,65 @@
 #coding=utf-8
 from appium import webdriver
+import sys
 import time
 import re
 import os
 import random
+import logging
 from BaseAdb import AndroidDebugBridge
 from BaseAndroidPhone import getPhoneInfo
+import LogcatAndroid
 import subprocess
 
+#定义系统输出编码
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
+#定义PATH
 PATH = lambda p: os.path.abspath(
     os.path.join(os.path.dirname(__file__), p)
 )
 
-# x=raw_input(u'请输入MONKEY循环次数:')
+FILE=os.getcwd()+'\\log\\'
+now = time.strftime("%Y-%m-%d-%H_%M_%S",time.localtime(time.time()))
+filename =now+u"运行log.txt"
+
+#定义日志输出
+logging.basicConfig(level=logging.INFO,
+                format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
+                datefmt='%a, %d %b %Y %H:%M:%S',
+                filename = os.path.join(FILE,filename),
+                filemode='w')
+
+#定义一个StreamHandler，将INFO级别或更高的日志信息打印到标准错误，并将其添加到当前的日志处理对象#
+logger = logging.getLogger()#fib
+logger.setLevel(logging.INFO)#fib
+console = logging.StreamHandler()
+#console.setLevel(logging.INFO)
+formatter = logging.Formatter('[%(asctime)s] %(filename)s:%(levelname)s: %(message)s')
+console.setFormatter(formatter)
+logger.addHandler(console)#fib
+
+#创建写入日志
+# logcat_file=logging.FileHandler(FILE+filename)
+# logcat_file.setLevel(logging.INFO)
+# formatter2 = logging.Formatter('[%(asctime)s][%(thread)d][%(filename)s][line: %(lineno)d][%(levelname)s] ## %(message)s')
+# logcat_file.setFormatter(formatter2)
+# logger.addHandler(formatter2)
+
+# logcat日志
+# with open(FILE + filename, 'a+') as logcat_file:
+#     Poplog2 = subprocess.Popen('adb logcat -v time -s*:W >> %s' % (FILE + filename), stdout=logcat_file,
+#                                stderr=subprocess.PIPE)
+#     # logcat_file.writelines(str(Poplog2))
+#
+# # Poplog.terminate()
+# Poplog2.terminate()
+
+
+
+
+x=raw_input(u'请输入MONKEY循环次数:')
 
 def swipeLeft():
     width = driver.get_window_size()["width"]
@@ -38,24 +85,27 @@ def find_element_by_id_no_except(id):
     try :
         element = driver.find_element_by_id(id)
     except Exception,e:
-        print Exception, ':', e
+        logging.info(e)
     return element
 
 def devices_info():
-    devicess = AndroidDebugBridge().attached_devices()
-    if len(devicess) > 0:
-        l_devices = []
-        for dev in devicess:
-            app = {}
-            app["devices"] = dev
-            app["port"] = str(random.randint(4700, 4900))
-            app["bport"] = str(random.randint(4700, 4900))
-            app["systemPort"] = str(random.randint(4700, 4900))
-            l_devices.append(app)
+    try:
+        devicess = AndroidDebugBridge().attached_devices()
+        if len(devicess) > 0:
+            l_devices = []
+            for dev in devicess:
+                app = {}
+                app["devices"] = dev
+                app["port"] = str(random.randint(4700, 4900))
+                app["bport"] = str(random.randint(4700, 4900))
+                app["systemPort"] = str(random.randint(4700, 4900))
+                l_devices.append(app)
 
-    for i in range(0, len(l_devices)):
-        pass
-    return l_devices[i]
+        for i in range(0, len(l_devices)):
+            pass
+        return l_devices[i]
+    except Exception as e:
+        print u'设备连接异常,请检查设备连接',e
 
 def desired_caps():
     desired_caps = {}
@@ -73,65 +123,73 @@ def desired_caps():
 
 driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps())
 
+logging.info("----------------所有连接的设备--------------------")
+logging.info(devices_info())
+
+t = time.time()
 #启动，drivers=driver()多次调用相当于重复启动----错误
 # def driver2():
 #     driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps())
 #     print driver
 #     return driver
 
-def test_case():
+
+
+
+
+def run_case():
     global driver
     # lisst=driver.find_elements_by_xpath('//*')#展示全部xpath路径
     # print lisst
-    print "-------------current_activity------------------"
+    logging.info("-------------current_activity------------------")
     aa=driver.current_activity
-    print aa
+    logging.info(aa)
     if '.AppGuideActivity' in aa:
         try:
-            print "===============导航页=================="
+            logging.info("===============导航页==================")
             #跳过导航页
             driver.implicitly_wait(5)
             time.sleep(4)
             swipeLeft()
             swipeLeft()
             time.sleep(1)
-            print 'is enable?',driver.find_element_by_id("com.bkjk.apollo.test:id/btn_enter_home").is_enabled()
+            logging.info('is enable?'+driver.find_element_by_id("com.bkjk.apollo.test:id/btn_enter_home").is_enabled())
             driver.find_element_by_id("com.bkjk.apollo.test:id/btn_enter_home").click()
         except Exception as e:
-            print e
+            logging.info(e)
     else:
         pass
     count = 0
     error_count=0
-    while (count < int(50)):
+    while (count < int(x)):
 
     # while True:
         try:
             # time.sleep(1)
-            print '------------------current_activity---------------------'
-            print driver.current_activity
+            logging.info('------------------current_activity---------------------')
+            logging.info(driver.current_activity)
             result=driver.page_source
-            print "----------------------id all--------------------------"
+            logging.info("------------------------id all--------------------------")
             id_result=re.findall('resource-id="(.*?)" instance=',result,re.S)
             #当前页面全部id
             for n in range(id_result.count('')):
                 id_result.remove('')
-            print id_result
-            print "~~~~~~~~~~~~~~~~~~~choice id~~~~~~~~~~~~~~~~~~~~~~~~"
+            logging.info(id_result)
+            logging.info("------------------------choice id------------------------")
 
             bb = random.randint(1, len(id_result)-1)
             cc= id_result[bb]
             # print bb
-            print cc
-            print "~~~~~~~~~~~~~~~~~app is exist?~~~~~~~~~~~~~~~~~~~~~~"
+            logging.info(cc)
+            logging.info("------------------------app is exist?------------------------")
             if desired_caps()['appPackage'] in cc:
-                print 'yes'
+                logging.info('yes')
                 pass
             elif 'android:id' in cc:
-                print 'yet'
+                logging.info('yet')
                 pass
             else:
-                print 'no'
+                logging.info('no')
                 driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps())
                 '''这会有问题-------给变量取的这个名字，可能会冲突，它是函数外部的变量，因为全局变量driver的值被修改
                 -----在函数内加global driver，内部作用域的想要修改外部作用域的变量，就要使用global关键字'''
@@ -143,47 +201,56 @@ def test_case():
                         driver.implicitly_wait(6)
                         driver.find_element_by_id("com.bkjk.apollo.test:id/btn_enter_home").click()
                      except Exception as e:
-                        print e
+                         logging.info(e)
                 else:
                     pass
                 continue
 
-            print "~~~~~~~~~~~~~~~~~~~~~~~monkey~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-            ee = driver.find_element_by_id(cc).is_enabled()
-            print 'isenable:', ee
-            rate = random.randint(1,10)
+            logging.info("------------------------monkey--------------------------")#慢的问题？
+            enable = driver.find_element_by_id(cc).is_enabled()
+            logging.info('isenable:'+ str(enable))
+            rate = random.randint(1,10)#调整动作几率
             if rate==1:
                 # print activity + ' Scroll left'
                 swiperandom()
-                print 'swipe:',swiperandom()
-            elif rate==2:
+                logging.info('swipe:'+str(swiperandom()))
+            elif rate==10:
                 # print activity + ' Key Back'
                 driver.press_keycode(4)
-                print 'Key Back'
+                logging.info('点击 Back')
             else:
                 # print activity + ' Scroll Up'
                 if 'android:id' in cc:
                     swiperandom()
-                    print 'swipe:', swiperandom()
+                    logging.info('滑动:'+str(swiperandom()))
                 else:
                     driver.find_element_by_id(cc).click()
-                    print 'click:',cc
+                    logging.info('点击:'+str(cc))
 
             count = count + 1
 
-            print "count:",count
+            logging.info("执行: 第 "+str(count)+' 次')
         except Exception as e:
-            error_count=error_count + 1
-            print 'Exception:',e
+            error_count = error_count + 1
+            logging.info(e)
             continue
-    print "====================end========================"
-    print "count:",count
-    print 'message:',error_count
+    logging.info("====================end========================")
+    logging.info("count:" + str(count))
+    logging.info('Error Message:'+ str(error_count))
+    logging.info(str(time.time() - t) + "秒")
+
+
+#定义logcat输出
+FILE2 =FILE+ 'logcat'+now + '.log'
+with open(FILE2, 'w') as logcat_file:
+        # os.popen(LogcatAndroid.logcat_filein(desired_caps()['appPackage'], FILE2))
+    Poplog= subprocess.Popen(LogcatAndroid.logcat_filein(desired_caps()['appPackage']),shell=True,stdout=logcat_file,stderr=subprocess.PIPE)
+
 
 if __name__ == '__main__':
     # print desired_caps()['appPackage']
-    print "----------------所有连接的设备--------------------"
-    print devices_info()
-    Poplog = subprocess.Popen('adb shell "logcat | grep --color=always -E \"%s\" "'% desired_caps()['appPackage'])
-    test_case()
+
+    run_case()
     Poplog.terminate()
+
+
