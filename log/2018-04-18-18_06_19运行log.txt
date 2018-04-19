@@ -1,0 +1,2 @@
+Wed, 18 Apr 2018 18:06:41 appium-monkey-liyyq.py[line:126] INFO ----------------所有连接的设备--------------------
+Wed, 18 Apr 2018 18:06:41 appium-monkey-liyyq.py[line:127] INFO {'bport': '4740', 'systemPort': '4868', 'port': '4765', 'devices': u'HMKNW17523006698'}
