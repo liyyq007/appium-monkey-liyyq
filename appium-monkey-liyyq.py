@@ -253,6 +253,7 @@ if __name__ == '__main__':
     # print desired_caps()['appPackage']
     run_case()
     # driver.quit()
+    time.sleep(5)
     kill_pid('adb.exe')
     Poplog.terminate()
 
