@@ -10,6 +10,8 @@ from BaseAdb import AndroidDebugBridge
 from BaseAndroidPhone import getPhoneInfo
 import LogcatAndroid
 import subprocess
+from get_package_pid import get_pid
+from get_package_pid import kill_pid
 
 #定义系统输出编码
 reload(sys)
@@ -249,8 +251,11 @@ with open(FILE2, 'w') as logcat_file:
 
 if __name__ == '__main__':
     # print desired_caps()['appPackage']
-
     run_case()
+    # driver.quit()
     Poplog.terminate()
+    kill_pid('adb.exe')
+
+
 
 

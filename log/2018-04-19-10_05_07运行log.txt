@@ -1,0 +1,639 @@
+Thu, 19 Apr 2018 10:05:35 appium-monkey-liyyq.py[line:128] INFO ----------------所有连接的设备--------------------
+Thu, 19 Apr 2018 10:05:35 appium-monkey-liyyq.py[line:129] INFO {'bport': '4837', 'systemPort': '4782', 'port': '4854', 'devices': u'HMKNW17523006698'}
+Thu, 19 Apr 2018 10:05:35 appium-monkey-liyyq.py[line:146] INFO -------------current_activity------------------
+Thu, 19 Apr 2018 10:05:35 appium-monkey-liyyq.py[line:148] INFO com.apollo.activity.AppLaucherActivity
+Thu, 19 Apr 2018 10:05:35 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:05:36 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppLaucherActivity
+Thu, 19 Apr 2018 10:05:36 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:05:36 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/core_shade_background', u'com.bkjk.apollo.test:id/core_shade_imag']
+Thu, 19 Apr 2018 10:05:36 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:05:36 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/core_shade_background
+Thu, 19 Apr 2018 10:05:36 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:05:36 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:05:36 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:05:36 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:05:38 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/core_shade_background
+Thu, 19 Apr 2018 10:05:38 appium-monkey-liyyq.py[line:234] INFO 执行: 第 1 次
+Thu, 19 Apr 2018 10:05:38 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:05:39 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppHomeActivity
+Thu, 19 Apr 2018 10:05:39 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:05:39 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/rl_fragment_container', u'com.bkjk.apollo.test:id/common_back', u'com.bkjk.apollo.test:id/apollo_home_title', u'com.bkjk.apollo.test:id/apollo_home_logo', u'com.bkjk.apollo.test:id/apollo_home_ll_location', u'com.bkjk.apollo.test:id/home_city_tv', u'com.bkjk.apollo.test:id/apollo_home_scan', u'com.bkjk.apollo.test:id/apollo_home_refreshLayout', u'com.bkjk.apollo.test:id/app_main_content', u'com.bkjk.apollo.test:id/home_nn_viewpager', u'com.bkjk.apollo.test:id/home_fragment_consume_container', u'com.bkjk.apollo.test:id/home_index_body_layout', u'com.bkjk.apollo.test:id/apollo_home_banner_Iv', u'com.bkjk.apollo.test:id/apollo_home_ll_hot', u'com.bkjk.apollo.test:id/home_hot_product_tv', u'com.bkjk.apollo.test:id/apollo_home_rl_loan_first', u'com.bkjk.apollo.test:id/apollo_home_iv_loan_hot', u'com.bkjk.apollo.test:id/apollo_home_ll_loan', u'com.bkjk.apollo.test:id/apollo_home_product_name_tv', u'com.bkjk.apollo.test:id/apollo_home_product_range_tv', u'com.bkjk.apollo.test:id/apollo_home_product_feilv_tv', u'com.bkjk.apollo.test:id/apollo_home_rl_loan_first', u'com.bkjk.apollo.test:id/apollo_home_iv_loan_hot', u'com.bkjk.apollo.test:id/apollo_home_ll_loan', u'com.bkjk.apollo.test:id/apollo_home_product_name_tv', u'com.bkjk.apollo.test:id/apollo_home_product_range_tv', u'com.bkjk.apollo.test:id/app_bar_layout', u'com.bkjk.apollo.test:id/home_nn_tablayout', u'com.bkjk.apollo.test:id/tv_tab_title', u'com.bkjk.apollo.test:id/tv_tab_title', u'com.bkjk.apollo.test:id/tv_tab_title', u'com.bkjk.apollo.test:id/view_temp', u'com.bkjk.apollo.test:id/ll_main_bottom', u'com.bkjk.apollo.test:id/rl_index', u'com.bkjk.apollo.test:id/iv_index_icon', u'com.bkjk.apollo.test:id/tv_index_text', u'com.bkjk.apollo.test:id/apollo_app_rl_discovery', u'com.bkjk.apollo.test:id/apollo_app_iv_discovery', u'com.bkjk.apollo.test:id/apollo_app_tv_discovery', u'com.bkjk.apollo.test:id/rl_im', u'com.bkjk.apollo.test:id/iv_im', u'com.bkjk.apollo.test:id/tv_im', u'com.bkjk.apollo.test:id/rl_mine', u'com.bkjk.apollo.test:id/iv_mine_icon', u'com.bkjk.apollo.test:id/tv_mine_text', u'android:id/statusBarBackground', u'android:id/navigationBarBackground']
+Thu, 19 Apr 2018 10:05:39 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:05:39 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_home_rl_loan_first
+Thu, 19 Apr 2018 10:05:39 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:05:39 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:05:39 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:05:40 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:05:40 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/apollo_home_rl_loan_first
+Thu, 19 Apr 2018 10:05:40 appium-monkey-liyyq.py[line:234] INFO 执行: 第 2 次
+Thu, 19 Apr 2018 10:05:40 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:05:40 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppWebViewActivity
+Thu, 19 Apr 2018 10:05:41 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:05:41 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/mContentView', u'com.bkjk.apollo.test:id/apollo_app_webview']
+Thu, 19 Apr 2018 10:05:41 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:05:41 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_app_webview
+Thu, 19 Apr 2018 10:05:41 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:05:41 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:05:41 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:05:41 appium-monkey-liyyq.py[line:237] INFO Message: An element could not be located on the page using the given search parameters.
+
+Thu, 19 Apr 2018 10:05:41 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:05:42 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppWebViewActivity
+Thu, 19 Apr 2018 10:05:42 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:05:42 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:id/core_dialog_main', u'com.bkjk.apollo.test:id/core_parent_panel', u'com.bkjk.apollo.test:id/core_top_panel', u'com.bkjk.apollo.test:id/core_title_template', u'com.bkjk.apollo.test:id/core_alert_title', u'com.bkjk.apollo.test:id/core_content_panel', u'com.bkjk.apollo.test:id/core_dialog_message', u'com.bkjk.apollo.test:id/core_hori_divider', u'com.bkjk.apollo.test:id/core_btn_layout', u'com.bkjk.apollo.test:id/core_btn_confirm']
+Thu, 19 Apr 2018 10:05:42 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:05:42 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/core_title_template
+Thu, 19 Apr 2018 10:05:42 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:05:42 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:05:42 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:05:42 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:05:44 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/core_title_template
+Thu, 19 Apr 2018 10:05:44 appium-monkey-liyyq.py[line:234] INFO 执行: 第 3 次
+Thu, 19 Apr 2018 10:05:44 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:05:44 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppWebViewActivity
+Thu, 19 Apr 2018 10:05:44 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:05:44 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:id/core_dialog_main', u'com.bkjk.apollo.test:id/core_parent_panel', u'com.bkjk.apollo.test:id/core_top_panel', u'com.bkjk.apollo.test:id/core_title_template', u'com.bkjk.apollo.test:id/core_alert_title', u'com.bkjk.apollo.test:id/core_content_panel', u'com.bkjk.apollo.test:id/core_dialog_message', u'com.bkjk.apollo.test:id/core_hori_divider', u'com.bkjk.apollo.test:id/core_btn_layout', u'com.bkjk.apollo.test:id/core_btn_confirm']
+Thu, 19 Apr 2018 10:05:44 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:05:44 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/core_btn_layout
+Thu, 19 Apr 2018 10:05:44 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:05:44 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:05:44 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:05:45 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:05:45 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/core_btn_layout
+Thu, 19 Apr 2018 10:05:45 appium-monkey-liyyq.py[line:234] INFO 执行: 第 4 次
+Thu, 19 Apr 2018 10:05:45 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:05:45 appium-monkey-liyyq.py[line:172] INFO None
+Thu, 19 Apr 2018 10:05:52 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:05:52 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:id/core_layout_body_id']
+Thu, 19 Apr 2018 10:05:52 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:05:52 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/core_layout_body_id
+Thu, 19 Apr 2018 10:05:52 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:05:52 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:05:52 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:05:52 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:05:52 appium-monkey-liyyq.py[line:222] INFO 点击 Back
+Thu, 19 Apr 2018 10:05:52 appium-monkey-liyyq.py[line:234] INFO 执行: 第 5 次
+Thu, 19 Apr 2018 10:05:52 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:05:53 appium-monkey-liyyq.py[line:172] INFO .unihome.UniHomeLauncher
+Thu, 19 Apr 2018 10:05:53 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:05:53 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.huawei.android.launcher:id/drag_layer', u'com.huawei.android.launcher:id/workspace', u'com.huawei.android.launcher:id/workspace_screen', u'com.huawei.android.totemweather:id/left_part', u'com.huawei.android.totemweather:id/time_display', u'com.huawei.android.totemweather:id/widget_time_hour', u'com.huawei.android.totemweather:id/widget_time_colon', u'com.huawei.android.totemweather:id/widget_time_minute', u'com.huawei.android.totemweather:id/widget_time_timeformat', u'com.huawei.android.totemweather:id/widget_date_timeformat', u'com.huawei.android.totemweather:id/widget_city_date', u'com.huawei.android.totemweather:id/widget_city_name', u'com.huawei.android.totemweather:id/mulan_single_split_line', u'com.huawei.android.totemweather:id/widget_icon_layout', u'com.huawei.android.totemweather:id/widget_currentweather_smallicon', u'com.huawei.android.totemweather:id/widget_current_temperature', u'com.huawei.android.totemweather:id/widget_highlow_temperature', u'com.huawei.android.launcher:id/preview_background', u'com.huawei.android.launcher:id/folder_icon_name', u'com.huawei.android.launcher:id/dock_divider', u'com.huawei.android.launcher:id/hotseat', u'com.huawei.android.launcher:id/layout', u'com.huawei.android.launcher:id/bg_dock']
+Thu, 19 Apr 2018 10:05:53 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:05:53 appium-monkey-liyyq.py[line:185] INFO com.huawei.android.totemweather:id/widget_icon_layout
+Thu, 19 Apr 2018 10:05:53 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:05:53 appium-monkey-liyyq.py[line:194] INFO no
+Thu, 19 Apr 2018 10:06:15 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:06:16 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppLaucherActivity
+Thu, 19 Apr 2018 10:06:16 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:06:16 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:id/core_layout_body_id']
+Thu, 19 Apr 2018 10:06:16 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:06:16 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/core_layout_body_id
+Thu, 19 Apr 2018 10:06:16 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:06:16 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:06:16 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:06:16 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:06:19 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/core_layout_body_id
+Thu, 19 Apr 2018 10:06:19 appium-monkey-liyyq.py[line:234] INFO 执行: 第 6 次
+Thu, 19 Apr 2018 10:06:19 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:06:19 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppHomeActivity
+Thu, 19 Apr 2018 10:06:19 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:06:19 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/rl_fragment_container', u'com.bkjk.apollo.test:id/common_back', u'com.bkjk.apollo.test:id/apollo_home_title', u'com.bkjk.apollo.test:id/apollo_home_logo', u'com.bkjk.apollo.test:id/apollo_home_ll_location', u'com.bkjk.apollo.test:id/home_city_tv', u'com.bkjk.apollo.test:id/apollo_home_scan', u'com.bkjk.apollo.test:id/apollo_home_refreshLayout', u'com.bkjk.apollo.test:id/app_main_content', u'com.bkjk.apollo.test:id/home_nn_viewpager', u'com.bkjk.apollo.test:id/home_fragment_consume_container', u'com.bkjk.apollo.test:id/home_index_body_layout', u'com.bkjk.apollo.test:id/apollo_home_banner_Iv', u'com.bkjk.apollo.test:id/apollo_home_ll_hot', u'com.bkjk.apollo.test:id/home_hot_product_tv', u'com.bkjk.apollo.test:id/apollo_home_rl_loan_first', u'com.bkjk.apollo.test:id/apollo_home_iv_loan_hot', u'com.bkjk.apollo.test:id/apollo_home_ll_loan', u'com.bkjk.apollo.test:id/apollo_home_product_name_tv', u'com.bkjk.apollo.test:id/apollo_home_product_range_tv', u'com.bkjk.apollo.test:id/apollo_home_product_feilv_tv', u'com.bkjk.apollo.test:id/apollo_home_rl_loan_first', u'com.bkjk.apollo.test:id/apollo_home_iv_loan_hot', u'com.bkjk.apollo.test:id/apollo_home_ll_loan', u'com.bkjk.apollo.test:id/apollo_home_product_name_tv', u'com.bkjk.apollo.test:id/apollo_home_product_range_tv', u'com.bkjk.apollo.test:id/app_bar_layout', u'com.bkjk.apollo.test:id/home_nn_tablayout', u'com.bkjk.apollo.test:id/tv_tab_title', u'com.bkjk.apollo.test:id/tv_tab_title', u'com.bkjk.apollo.test:id/tv_tab_title', u'com.bkjk.apollo.test:id/view_temp', u'com.bkjk.apollo.test:id/ll_main_bottom', u'com.bkjk.apollo.test:id/rl_index', u'com.bkjk.apollo.test:id/iv_index_icon', u'com.bkjk.apollo.test:id/tv_index_text', u'com.bkjk.apollo.test:id/apollo_app_rl_discovery', u'com.bkjk.apollo.test:id/apollo_app_iv_discovery', u'com.bkjk.apollo.test:id/apollo_app_tv_discovery', u'com.bkjk.apollo.test:id/rl_im', u'com.bkjk.apollo.test:id/iv_im', u'com.bkjk.apollo.test:id/tv_im', u'com.bkjk.apollo.test:id/rl_mine', u'com.bkjk.apollo.test:id/iv_mine_icon', u'com.bkjk.apollo.test:id/tv_mine_text', u'android:id/statusBarBackground', u'android:id/navigationBarBackground']
+Thu, 19 Apr 2018 10:06:19 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:06:19 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_app_iv_discovery
+Thu, 19 Apr 2018 10:06:19 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:06:20 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:06:20 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:06:20 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:06:20 appium-monkey-liyyq.py[line:222] INFO 点击 Back
+Thu, 19 Apr 2018 10:06:20 appium-monkey-liyyq.py[line:234] INFO 执行: 第 7 次
+Thu, 19 Apr 2018 10:06:20 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:06:20 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppHomeActivity
+Thu, 19 Apr 2018 10:06:21 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:06:21 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/rl_fragment_container', u'com.bkjk.apollo.test:id/common_back', u'com.bkjk.apollo.test:id/apollo_home_title', u'com.bkjk.apollo.test:id/apollo_home_logo', u'com.bkjk.apollo.test:id/apollo_home_ll_location', u'com.bkjk.apollo.test:id/home_city_tv', u'com.bkjk.apollo.test:id/apollo_home_scan', u'com.bkjk.apollo.test:id/apollo_home_refreshLayout', u'com.bkjk.apollo.test:id/app_main_content', u'com.bkjk.apollo.test:id/home_nn_viewpager', u'com.bkjk.apollo.test:id/home_fragment_consume_container', u'com.bkjk.apollo.test:id/home_index_body_layout', u'com.bkjk.apollo.test:id/apollo_home_banner_Iv', u'com.bkjk.apollo.test:id/apollo_home_ll_hot', u'com.bkjk.apollo.test:id/home_hot_product_tv', u'com.bkjk.apollo.test:id/apollo_home_rl_loan_first', u'com.bkjk.apollo.test:id/apollo_home_iv_loan_hot', u'com.bkjk.apollo.test:id/apollo_home_ll_loan', u'com.bkjk.apollo.test:id/apollo_home_product_name_tv', u'com.bkjk.apollo.test:id/apollo_home_product_range_tv', u'com.bkjk.apollo.test:id/apollo_home_product_feilv_tv', u'com.bkjk.apollo.test:id/apollo_home_rl_loan_first', u'com.bkjk.apollo.test:id/apollo_home_iv_loan_hot', u'com.bkjk.apollo.test:id/apollo_home_ll_loan', u'com.bkjk.apollo.test:id/apollo_home_product_name_tv', u'com.bkjk.apollo.test:id/apollo_home_product_range_tv', u'com.bkjk.apollo.test:id/app_bar_layout', u'com.bkjk.apollo.test:id/home_nn_tablayout', u'com.bkjk.apollo.test:id/tv_tab_title', u'com.bkjk.apollo.test:id/tv_tab_title', u'com.bkjk.apollo.test:id/tv_tab_title', u'com.bkjk.apollo.test:id/view_temp', u'com.bkjk.apollo.test:id/ll_main_bottom', u'com.bkjk.apollo.test:id/rl_index', u'com.bkjk.apollo.test:id/iv_index_icon', u'com.bkjk.apollo.test:id/tv_index_text', u'com.bkjk.apollo.test:id/apollo_app_rl_discovery', u'com.bkjk.apollo.test:id/apollo_app_iv_discovery', u'com.bkjk.apollo.test:id/apollo_app_tv_discovery', u'com.bkjk.apollo.test:id/rl_im', u'com.bkjk.apollo.test:id/iv_im', u'com.bkjk.apollo.test:id/tv_im', u'com.bkjk.apollo.test:id/rl_mine', u'com.bkjk.apollo.test:id/iv_mine_icon', u'com.bkjk.apollo.test:id/tv_mine_text', u'android:id/statusBarBackground', u'android:id/navigationBarBackground']
+Thu, 19 Apr 2018 10:06:21 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:06:21 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_home_rl_loan_first
+Thu, 19 Apr 2018 10:06:21 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:06:21 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:06:21 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:06:21 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:06:22 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/apollo_home_rl_loan_first
+Thu, 19 Apr 2018 10:06:22 appium-monkey-liyyq.py[line:234] INFO 执行: 第 8 次
+Thu, 19 Apr 2018 10:06:22 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:06:22 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppWebViewActivity
+Thu, 19 Apr 2018 10:06:22 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:06:22 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/core_shade_background', u'com.bkjk.apollo.test:id/core_shade_imag', u'com.bkjk.apollo.test:id/mContentView']
+Thu, 19 Apr 2018 10:06:22 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:06:22 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/mContentView
+Thu, 19 Apr 2018 10:06:22 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:06:22 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:06:22 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:06:22 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:06:23 appium-monkey-liyyq.py[line:218] INFO swipe:[(810, 453), (810, 453)]
+Thu, 19 Apr 2018 10:06:23 appium-monkey-liyyq.py[line:234] INFO 执行: 第 9 次
+Thu, 19 Apr 2018 10:06:23 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:06:24 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppWebViewActivity
+Thu, 19 Apr 2018 10:06:24 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:06:24 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/core_shade_background', u'com.bkjk.apollo.test:id/core_shade_imag', u'com.bkjk.apollo.test:id/mContentView']
+Thu, 19 Apr 2018 10:06:24 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:06:24 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/core_layout_body_id
+Thu, 19 Apr 2018 10:06:24 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:06:24 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:06:24 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:06:24 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:06:27 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/core_layout_body_id
+Thu, 19 Apr 2018 10:06:27 appium-monkey-liyyq.py[line:234] INFO 执行: 第 10 次
+Thu, 19 Apr 2018 10:06:27 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:06:28 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppWebViewActivity
+Thu, 19 Apr 2018 10:06:28 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:06:28 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/core_shade_background', u'com.bkjk.apollo.test:id/core_shade_imag', u'com.bkjk.apollo.test:id/mContentView']
+Thu, 19 Apr 2018 10:06:28 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:06:28 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/core_shade_background
+Thu, 19 Apr 2018 10:06:28 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:06:28 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:06:28 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:06:28 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:06:32 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/core_shade_background
+Thu, 19 Apr 2018 10:06:32 appium-monkey-liyyq.py[line:234] INFO 执行: 第 11 次
+Thu, 19 Apr 2018 10:06:32 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:06:32 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppWebViewActivity
+Thu, 19 Apr 2018 10:06:32 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:06:32 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/core_shade_background', u'com.bkjk.apollo.test:id/core_shade_imag', u'com.bkjk.apollo.test:id/mContentView']
+Thu, 19 Apr 2018 10:06:32 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:06:32 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:integer/hide_password_duration
+Thu, 19 Apr 2018 10:06:32 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:06:32 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:06:32 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:06:33 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:06:36 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:integer/hide_password_duration
+Thu, 19 Apr 2018 10:06:36 appium-monkey-liyyq.py[line:234] INFO 执行: 第 12 次
+Thu, 19 Apr 2018 10:06:36 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:06:36 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppHomeActivity
+Thu, 19 Apr 2018 10:06:36 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:06:36 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/rl_fragment_container', u'com.bkjk.apollo.test:id/common_back', u'com.bkjk.apollo.test:id/apollo_home_title', u'com.bkjk.apollo.test:id/apollo_home_logo', u'com.bkjk.apollo.test:id/apollo_home_ll_location', u'com.bkjk.apollo.test:id/home_city_tv', u'com.bkjk.apollo.test:id/apollo_home_scan', u'com.bkjk.apollo.test:id/apollo_home_refreshLayout', u'com.bkjk.apollo.test:id/app_main_content', u'com.bkjk.apollo.test:id/home_nn_viewpager', u'com.bkjk.apollo.test:id/home_fragment_consume_container', u'com.bkjk.apollo.test:id/home_index_body_layout', u'com.bkjk.apollo.test:id/apollo_home_banner_Iv', u'com.bkjk.apollo.test:id/apollo_home_ll_hot', u'com.bkjk.apollo.test:id/home_hot_product_tv', u'com.bkjk.apollo.test:id/apollo_home_rl_loan_first', u'com.bkjk.apollo.test:id/apollo_home_iv_loan_hot', u'com.bkjk.apollo.test:id/apollo_home_ll_loan', u'com.bkjk.apollo.test:id/apollo_home_product_name_tv', u'com.bkjk.apollo.test:id/apollo_home_product_range_tv', u'com.bkjk.apollo.test:id/apollo_home_product_feilv_tv', u'com.bkjk.apollo.test:id/apollo_home_rl_loan_first', u'com.bkjk.apollo.test:id/apollo_home_iv_loan_hot', u'com.bkjk.apollo.test:id/apollo_home_ll_loan', u'com.bkjk.apollo.test:id/apollo_home_product_name_tv', u'com.bkjk.apollo.test:id/apollo_home_product_range_tv', u'com.bkjk.apollo.test:id/app_bar_layout', u'com.bkjk.apollo.test:id/home_nn_tablayout', u'com.bkjk.apollo.test:id/tv_tab_title', u'com.bkjk.apollo.test:id/tv_tab_title', u'com.bkjk.apollo.test:id/tv_tab_title', u'com.bkjk.apollo.test:id/view_temp', u'com.bkjk.apollo.test:id/ll_main_bottom', u'com.bkjk.apollo.test:id/rl_index', u'com.bkjk.apollo.test:id/iv_index_icon', u'com.bkjk.apollo.test:id/tv_index_text', u'com.bkjk.apollo.test:id/apollo_app_rl_discovery', u'com.bkjk.apollo.test:id/apollo_app_iv_discovery', u'com.bkjk.apollo.test:id/apollo_app_tv_discovery', u'com.bkjk.apollo.test:id/rl_im', u'com.bkjk.apollo.test:id/iv_im', u'com.bkjk.apollo.test:id/tv_im', u'com.bkjk.apollo.test:id/rl_mine', u'com.bkjk.apollo.test:id/iv_mine_icon', u'com.bkjk.apollo.test:id/tv_mine_text', u'android:id/statusBarBackground', u'android:id/navigationBarBackground']
+Thu, 19 Apr 2018 10:06:36 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:06:36 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/ll_main_bottom
+Thu, 19 Apr 2018 10:06:36 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:06:37 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:06:37 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:06:37 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:06:37 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/ll_main_bottom
+Thu, 19 Apr 2018 10:06:37 appium-monkey-liyyq.py[line:234] INFO 执行: 第 13 次
+Thu, 19 Apr 2018 10:06:37 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:06:38 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppHomeActivity
+Thu, 19 Apr 2018 10:06:38 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:06:38 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/rl_fragment_container', u'com.bkjk.apollo.test:id/core_recycler_view_frame', u'com.bkjk.apollo.test:id/core_refresh_fragment_view', u'com.bkjk.apollo.test:id/apollo_product_title', u'com.bkjk.apollo.test:id/apollo_product_id_item_bg', u'com.bkjk.apollo.test:id/apollo_product_id_item_introduce', u'com.bkjk.apollo.test:id/apollo_product_id_item_icon', u'com.bkjk.apollo.test:id/apollo_product_id_item_name', u'com.bkjk.apollo.test:id/apollo_product_id_item_income', u'com.bkjk.apollo.test:id/apollo_product_apply_btn', u'com.bkjk.apollo.test:id/apollo_product_id_item_bg', u'com.bkjk.apollo.test:id/apollo_product_id_item_introduce', u'com.bkjk.apollo.test:id/apollo_product_id_item_icon', u'com.bkjk.apollo.test:id/apollo_product_id_item_name', u'com.bkjk.apollo.test:id/apollo_product_id_item_income', u'com.bkjk.apollo.test:id/apollo_product_apply_btn', u'com.bkjk.apollo.test:id/apollo_product_id_item_bg', u'com.bkjk.apollo.test:id/apollo_product_id_item_introduce', u'com.bkjk.apollo.test:id/view_temp', u'com.bkjk.apollo.test:id/ll_main_bottom', u'com.bkjk.apollo.test:id/rl_index', u'com.bkjk.apollo.test:id/iv_index_icon', u'com.bkjk.apollo.test:id/tv_index_text', u'com.bkjk.apollo.test:id/apollo_app_rl_discovery', u'com.bkjk.apollo.test:id/apollo_app_iv_discovery', u'com.bkjk.apollo.test:id/apollo_app_tv_discovery', u'com.bkjk.apollo.test:id/rl_im', u'com.bkjk.apollo.test:id/iv_im', u'com.bkjk.apollo.test:id/tv_im', u'com.bkjk.apollo.test:id/rl_mine', u'com.bkjk.apollo.test:id/iv_mine_icon', u'com.bkjk.apollo.test:id/tv_mine_text', u'android:id/statusBarBackground', u'android:id/navigationBarBackground']
+Thu, 19 Apr 2018 10:06:38 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:06:38 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/rl_fragment_container
+Thu, 19 Apr 2018 10:06:38 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:06:38 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:06:38 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:06:38 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:06:39 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/rl_fragment_container
+Thu, 19 Apr 2018 10:06:39 appium-monkey-liyyq.py[line:234] INFO 执行: 第 14 次
+Thu, 19 Apr 2018 10:06:39 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:06:39 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppWebViewActivity
+Thu, 19 Apr 2018 10:06:39 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:06:39 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/core_shade_background', u'com.bkjk.apollo.test:id/core_shade_imag', u'com.bkjk.apollo.test:id/mContentView']
+Thu, 19 Apr 2018 10:06:39 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:06:39 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/mContentView
+Thu, 19 Apr 2018 10:06:39 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:06:39 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:06:39 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:06:40 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:06:41 appium-monkey-liyyq.py[line:218] INFO swipe:[(810, 1359), (810, 1359)]
+Thu, 19 Apr 2018 10:06:41 appium-monkey-liyyq.py[line:234] INFO 执行: 第 15 次
+Thu, 19 Apr 2018 10:06:41 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:06:41 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppWebViewActivity
+Thu, 19 Apr 2018 10:06:41 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:06:41 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/core_shade_background', u'com.bkjk.apollo.test:id/core_shade_imag', u'com.bkjk.apollo.test:id/mContentView']
+Thu, 19 Apr 2018 10:06:41 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:06:41 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:integer/hide_password_duration
+Thu, 19 Apr 2018 10:06:41 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:06:41 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:06:41 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:06:41 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:06:42 appium-monkey-liyyq.py[line:218] INFO swipe:[(810, 1359), (270, 1359)]
+Thu, 19 Apr 2018 10:06:42 appium-monkey-liyyq.py[line:234] INFO 执行: 第 16 次
+Thu, 19 Apr 2018 10:06:42 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:06:42 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppWebViewActivity
+Thu, 19 Apr 2018 10:06:43 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:06:43 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/core_shade_background', u'com.bkjk.apollo.test:id/core_shade_imag', u'com.bkjk.apollo.test:id/mContentView']
+Thu, 19 Apr 2018 10:06:43 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:06:43 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/core_shade_background
+Thu, 19 Apr 2018 10:06:43 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:06:43 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:06:43 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:06:43 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:06:46 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/core_shade_background
+Thu, 19 Apr 2018 10:06:46 appium-monkey-liyyq.py[line:234] INFO 执行: 第 17 次
+Thu, 19 Apr 2018 10:06:46 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:06:47 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppWebViewActivity
+Thu, 19 Apr 2018 10:06:47 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:06:47 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/core_shade_background', u'com.bkjk.apollo.test:id/core_shade_imag', u'com.bkjk.apollo.test:id/mContentView']
+Thu, 19 Apr 2018 10:06:47 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:06:47 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/core_shade_background
+Thu, 19 Apr 2018 10:06:47 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:06:47 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:06:47 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:06:47 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:06:47 appium-monkey-liyyq.py[line:222] INFO 点击 Back
+Thu, 19 Apr 2018 10:06:47 appium-monkey-liyyq.py[line:234] INFO 执行: 第 18 次
+Thu, 19 Apr 2018 10:06:47 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:06:49 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppHomeActivity
+Thu, 19 Apr 2018 10:06:49 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:06:49 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/rl_fragment_container', u'com.bkjk.apollo.test:id/core_recycler_view_frame', u'com.bkjk.apollo.test:id/core_refresh_fragment_view', u'com.bkjk.apollo.test:id/apollo_product_title', u'com.bkjk.apollo.test:id/apollo_product_id_item_bg', u'com.bkjk.apollo.test:id/apollo_product_id_item_introduce', u'com.bkjk.apollo.test:id/apollo_product_id_item_icon', u'com.bkjk.apollo.test:id/apollo_product_id_item_name', u'com.bkjk.apollo.test:id/apollo_product_id_item_income', u'com.bkjk.apollo.test:id/apollo_product_apply_btn', u'com.bkjk.apollo.test:id/apollo_product_id_item_bg', u'com.bkjk.apollo.test:id/apollo_product_id_item_introduce', u'com.bkjk.apollo.test:id/apollo_product_id_item_icon', u'com.bkjk.apollo.test:id/apollo_product_id_item_name', u'com.bkjk.apollo.test:id/apollo_product_id_item_income', u'com.bkjk.apollo.test:id/apollo_product_apply_btn', u'com.bkjk.apollo.test:id/apollo_product_id_item_bg', u'com.bkjk.apollo.test:id/apollo_product_id_item_introduce', u'com.bkjk.apollo.test:id/view_temp', u'com.bkjk.apollo.test:id/ll_main_bottom', u'com.bkjk.apollo.test:id/rl_index', u'com.bkjk.apollo.test:id/iv_index_icon', u'com.bkjk.apollo.test:id/tv_index_text', u'com.bkjk.apollo.test:id/apollo_app_rl_discovery', u'com.bkjk.apollo.test:id/apollo_app_iv_discovery', u'com.bkjk.apollo.test:id/apollo_app_tv_discovery', u'com.bkjk.apollo.test:id/rl_im', u'com.bkjk.apollo.test:id/iv_im', u'com.bkjk.apollo.test:id/tv_im', u'com.bkjk.apollo.test:id/rl_mine', u'com.bkjk.apollo.test:id/iv_mine_icon', u'com.bkjk.apollo.test:id/tv_mine_text', u'android:id/statusBarBackground', u'android:id/navigationBarBackground']
+Thu, 19 Apr 2018 10:06:49 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:06:49 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_app_rl_discovery
+Thu, 19 Apr 2018 10:06:49 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:06:49 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:06:49 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:06:50 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:06:50 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/apollo_app_rl_discovery
+Thu, 19 Apr 2018 10:06:50 appium-monkey-liyyq.py[line:234] INFO 执行: 第 19 次
+Thu, 19 Apr 2018 10:06:50 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:06:51 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppHomeActivity
+Thu, 19 Apr 2018 10:06:51 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:06:51 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/rl_fragment_container', u'com.bkjk.apollo.test:id/apollo_discovery_id_fragment_ptrframe', u'com.bkjk.apollo.test:id/apollo_discovery_id_fragment_recyclerView', u'com.bkjk.apollo.test:id/discovery_title', u'com.bkjk.apollo.test:id/apollo_discovery_id_top_news', u'com.bkjk.apollo.test:id/apollo_discovery_id_bg_img', u'com.bkjk.apollo.test:id/apollo_discovery_tv_top_news', u'com.bkjk.apollo.test:id/apollo_discovery_item_title', u'com.bkjk.apollo.test:id/apollo_discovery_item_source', u'com.bkjk.apollo.test:id/apollo_discovery_item_time', u'com.bkjk.apollo.test:id/apollo_discovery_id_item_icon', u'com.bkjk.apollo.test:id/apollo_discovery_item_title', u'com.bkjk.apollo.test:id/apollo_discovery_item_source', u'com.bkjk.apollo.test:id/apollo_discovery_item_time', u'com.bkjk.apollo.test:id/apollo_discovery_id_item_icon', u'com.bkjk.apollo.test:id/view_temp', u'com.bkjk.apollo.test:id/ll_main_bottom', u'com.bkjk.apollo.test:id/rl_index', u'com.bkjk.apollo.test:id/iv_index_icon', u'com.bkjk.apollo.test:id/tv_index_text', u'com.bkjk.apollo.test:id/apollo_app_rl_discovery', u'com.bkjk.apollo.test:id/apollo_app_iv_discovery', u'com.bkjk.apollo.test:id/apollo_app_tv_discovery', u'com.bkjk.apollo.test:id/rl_im', u'com.bkjk.apollo.test:id/iv_im', u'com.bkjk.apollo.test:id/tv_im', u'com.bkjk.apollo.test:id/rl_mine', u'com.bkjk.apollo.test:id/iv_mine_icon', u'com.bkjk.apollo.test:id/tv_mine_text', u'android:id/statusBarBackground', u'android:id/navigationBarBackground']
+Thu, 19 Apr 2018 10:06:51 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:06:51 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_discovery_id_fragment_recyclerView
+Thu, 19 Apr 2018 10:06:51 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:06:51 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:06:51 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:06:51 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:06:52 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/apollo_discovery_id_fragment_recyclerView
+Thu, 19 Apr 2018 10:06:52 appium-monkey-liyyq.py[line:234] INFO 执行: 第 20 次
+Thu, 19 Apr 2018 10:06:52 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:06:52 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppWebViewActivity
+Thu, 19 Apr 2018 10:06:52 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:06:52 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/mContentView']
+Thu, 19 Apr 2018 10:06:52 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:06:52 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/core_layout_body_id
+Thu, 19 Apr 2018 10:06:52 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:06:53 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:06:53 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:06:53 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:06:53 appium-monkey-liyyq.py[line:222] INFO 点击 Back
+Thu, 19 Apr 2018 10:06:53 appium-monkey-liyyq.py[line:234] INFO 执行: 第 21 次
+Thu, 19 Apr 2018 10:06:53 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:06:54 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppHomeActivity
+Thu, 19 Apr 2018 10:06:54 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:06:54 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/rl_fragment_container', u'com.bkjk.apollo.test:id/apollo_discovery_id_fragment_ptrframe', u'com.bkjk.apollo.test:id/apollo_discovery_id_fragment_recyclerView', u'com.bkjk.apollo.test:id/discovery_title', u'com.bkjk.apollo.test:id/apollo_discovery_id_top_news', u'com.bkjk.apollo.test:id/apollo_discovery_id_bg_img', u'com.bkjk.apollo.test:id/apollo_discovery_tv_top_news', u'com.bkjk.apollo.test:id/apollo_discovery_item_title', u'com.bkjk.apollo.test:id/apollo_discovery_item_source', u'com.bkjk.apollo.test:id/apollo_discovery_item_time', u'com.bkjk.apollo.test:id/apollo_discovery_id_item_icon', u'com.bkjk.apollo.test:id/apollo_discovery_item_title', u'com.bkjk.apollo.test:id/apollo_discovery_item_source', u'com.bkjk.apollo.test:id/apollo_discovery_item_time', u'com.bkjk.apollo.test:id/apollo_discovery_id_item_icon', u'com.bkjk.apollo.test:id/view_temp', u'com.bkjk.apollo.test:id/ll_main_bottom', u'com.bkjk.apollo.test:id/rl_index', u'com.bkjk.apollo.test:id/iv_index_icon', u'com.bkjk.apollo.test:id/tv_index_text', u'com.bkjk.apollo.test:id/apollo_app_rl_discovery', u'com.bkjk.apollo.test:id/apollo_app_iv_discovery', u'com.bkjk.apollo.test:id/apollo_app_tv_discovery', u'com.bkjk.apollo.test:id/rl_im', u'com.bkjk.apollo.test:id/iv_im', u'com.bkjk.apollo.test:id/tv_im', u'com.bkjk.apollo.test:id/rl_mine', u'com.bkjk.apollo.test:id/iv_mine_icon', u'com.bkjk.apollo.test:id/tv_mine_text', u'android:id/statusBarBackground', u'android:id/navigationBarBackground']
+Thu, 19 Apr 2018 10:06:54 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:06:54 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_discovery_item_time
+Thu, 19 Apr 2018 10:06:54 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:06:55 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:06:55 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:06:55 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:06:56 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/apollo_discovery_item_time
+Thu, 19 Apr 2018 10:06:56 appium-monkey-liyyq.py[line:234] INFO 执行: 第 22 次
+Thu, 19 Apr 2018 10:06:56 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:06:56 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppWebViewActivity
+Thu, 19 Apr 2018 10:06:56 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:06:56 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/apollo_app_header_collect', u'com.bkjk.apollo.test:id/apollo_app_header_share', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/mContentView']
+Thu, 19 Apr 2018 10:06:56 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:06:56 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_app_header_collect
+Thu, 19 Apr 2018 10:06:56 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:06:56 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:06:56 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:06:56 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:06:57 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/apollo_app_header_collect
+Thu, 19 Apr 2018 10:06:57 appium-monkey-liyyq.py[line:234] INFO 执行: 第 23 次
+Thu, 19 Apr 2018 10:06:57 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:06:57 appium-monkey-liyyq.py[line:172] INFO com.bkjk.apollo_uc.activity.UCLoginActivity
+Thu, 19 Apr 2018 10:06:57 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:06:57 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/apollo_uc_login_et_phone', u'com.bkjk.apollo.test:id/apollo_uc_login_et_password', u'com.bkjk.apollo.test:id/apollo_uc_login_tv_hide_show', u'com.bkjk.apollo.test:id/apollo_uc_login_btn_login', u'com.bkjk.apollo.test:id/apollo_uc_login_tv_forget_password']
+Thu, 19 Apr 2018 10:06:57 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:06:57 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_uc_login_et_password
+Thu, 19 Apr 2018 10:06:57 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:06:58 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:06:58 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:06:58 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:06:58 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/apollo_uc_login_et_password
+Thu, 19 Apr 2018 10:06:58 appium-monkey-liyyq.py[line:234] INFO 执行: 第 24 次
+Thu, 19 Apr 2018 10:06:58 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:06:59 appium-monkey-liyyq.py[line:172] INFO com.bkjk.apollo_uc.activity.UCLoginActivity
+Thu, 19 Apr 2018 10:06:59 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:06:59 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/apollo_uc_login_et_phone', u'com.bkjk.apollo.test:id/apollo_uc_login_et_password', u'com.bkjk.apollo.test:id/apollo_uc_login_tv_hide_show', u'com.bkjk.apollo.test:id/apollo_uc_login_btn_login', u'com.bkjk.apollo.test:id/apollo_uc_login_tv_forget_password']
+Thu, 19 Apr 2018 10:06:59 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:06:59 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/core_layout_body_id
+Thu, 19 Apr 2018 10:06:59 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:06:59 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:06:59 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:06:59 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:00 appium-monkey-liyyq.py[line:218] INFO swipe:[(810, 1359), (270, 453)]
+Thu, 19 Apr 2018 10:07:00 appium-monkey-liyyq.py[line:234] INFO 执行: 第 25 次
+Thu, 19 Apr 2018 10:07:00 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:01 appium-monkey-liyyq.py[line:172] INFO com.bkjk.apollo_uc.activity.UCLoginActivity
+Thu, 19 Apr 2018 10:07:01 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:01 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/apollo_uc_login_et_phone', u'com.bkjk.apollo.test:id/apollo_uc_login_et_password', u'com.bkjk.apollo.test:id/apollo_uc_login_tv_hide_show', u'com.bkjk.apollo.test:id/apollo_uc_login_btn_login', u'com.bkjk.apollo.test:id/apollo_uc_login_tv_forget_password']
+Thu, 19 Apr 2018 10:07:01 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:01 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:integer/hide_password_duration
+Thu, 19 Apr 2018 10:07:01 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:01 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:01 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:01 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:01 appium-monkey-liyyq.py[line:222] INFO 点击 Back
+Thu, 19 Apr 2018 10:07:01 appium-monkey-liyyq.py[line:234] INFO 执行: 第 26 次
+Thu, 19 Apr 2018 10:07:01 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:02 appium-monkey-liyyq.py[line:172] INFO com.bkjk.apollo_uc.activity.UCLoginActivity
+Thu, 19 Apr 2018 10:07:02 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:02 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/apollo_uc_login_et_phone', u'com.bkjk.apollo.test:id/apollo_uc_login_et_password', u'com.bkjk.apollo.test:id/apollo_uc_login_tv_hide_show', u'com.bkjk.apollo.test:id/apollo_uc_login_btn_login', u'com.bkjk.apollo.test:id/apollo_uc_login_tv_forget_password']
+Thu, 19 Apr 2018 10:07:02 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:02 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_uc_login_tv_forget_password
+Thu, 19 Apr 2018 10:07:02 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:02 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:02 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:02 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:02 appium-monkey-liyyq.py[line:222] INFO 点击 Back
+Thu, 19 Apr 2018 10:07:02 appium-monkey-liyyq.py[line:234] INFO 执行: 第 27 次
+Thu, 19 Apr 2018 10:07:02 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:03 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppWebViewActivity
+Thu, 19 Apr 2018 10:07:03 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:03 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/apollo_app_header_collect', u'com.bkjk.apollo.test:id/apollo_app_header_share', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/mContentView']
+Thu, 19 Apr 2018 10:07:03 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:03 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:integer/hide_password_duration
+Thu, 19 Apr 2018 10:07:03 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:03 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:03 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:03 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:03 appium-monkey-liyyq.py[line:222] INFO 点击 Back
+Thu, 19 Apr 2018 10:07:03 appium-monkey-liyyq.py[line:234] INFO 执行: 第 28 次
+Thu, 19 Apr 2018 10:07:03 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:04 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppHomeActivity
+Thu, 19 Apr 2018 10:07:04 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:04 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/rl_fragment_container', u'com.bkjk.apollo.test:id/apollo_discovery_id_fragment_ptrframe', u'com.bkjk.apollo.test:id/apollo_discovery_id_fragment_recyclerView', u'com.bkjk.apollo.test:id/discovery_title', u'com.bkjk.apollo.test:id/apollo_discovery_id_top_news', u'com.bkjk.apollo.test:id/apollo_discovery_id_bg_img', u'com.bkjk.apollo.test:id/apollo_discovery_tv_top_news', u'com.bkjk.apollo.test:id/apollo_discovery_item_title', u'com.bkjk.apollo.test:id/apollo_discovery_item_source', u'com.bkjk.apollo.test:id/apollo_discovery_item_time', u'com.bkjk.apollo.test:id/apollo_discovery_id_item_icon', u'com.bkjk.apollo.test:id/apollo_discovery_item_title', u'com.bkjk.apollo.test:id/apollo_discovery_item_source', u'com.bkjk.apollo.test:id/apollo_discovery_item_time', u'com.bkjk.apollo.test:id/apollo_discovery_id_item_icon', u'com.bkjk.apollo.test:id/view_temp', u'com.bkjk.apollo.test:id/ll_main_bottom', u'com.bkjk.apollo.test:id/rl_index', u'com.bkjk.apollo.test:id/iv_index_icon', u'com.bkjk.apollo.test:id/tv_index_text', u'com.bkjk.apollo.test:id/apollo_app_rl_discovery', u'com.bkjk.apollo.test:id/apollo_app_iv_discovery', u'com.bkjk.apollo.test:id/apollo_app_tv_discovery', u'com.bkjk.apollo.test:id/rl_im', u'com.bkjk.apollo.test:id/iv_im', u'com.bkjk.apollo.test:id/tv_im', u'com.bkjk.apollo.test:id/rl_mine', u'com.bkjk.apollo.test:id/iv_mine_icon', u'com.bkjk.apollo.test:id/tv_mine_text', u'android:id/statusBarBackground', u'android:id/navigationBarBackground']
+Thu, 19 Apr 2018 10:07:04 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:04 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_discovery_id_fragment_recyclerView
+Thu, 19 Apr 2018 10:07:04 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:05 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:05 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:05 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:06 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/apollo_discovery_id_fragment_recyclerView
+Thu, 19 Apr 2018 10:07:06 appium-monkey-liyyq.py[line:234] INFO 执行: 第 29 次
+Thu, 19 Apr 2018 10:07:06 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:06 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppWebViewActivity
+Thu, 19 Apr 2018 10:07:06 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:06 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/apollo_app_header_collect', u'com.bkjk.apollo.test:id/apollo_app_header_share', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/mContentView']
+Thu, 19 Apr 2018 10:07:06 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:06 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_app_header_share
+Thu, 19 Apr 2018 10:07:06 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:06 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:06 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:07 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:07 appium-monkey-liyyq.py[line:222] INFO 点击 Back
+Thu, 19 Apr 2018 10:07:07 appium-monkey-liyyq.py[line:234] INFO 执行: 第 30 次
+Thu, 19 Apr 2018 10:07:07 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:07 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppHomeActivity
+Thu, 19 Apr 2018 10:07:08 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:08 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/rl_fragment_container', u'com.bkjk.apollo.test:id/apollo_discovery_id_fragment_ptrframe', u'com.bkjk.apollo.test:id/apollo_discovery_id_fragment_recyclerView', u'com.bkjk.apollo.test:id/discovery_title', u'com.bkjk.apollo.test:id/apollo_discovery_id_top_news', u'com.bkjk.apollo.test:id/apollo_discovery_id_bg_img', u'com.bkjk.apollo.test:id/apollo_discovery_tv_top_news', u'com.bkjk.apollo.test:id/apollo_discovery_item_title', u'com.bkjk.apollo.test:id/apollo_discovery_item_source', u'com.bkjk.apollo.test:id/apollo_discovery_item_time', u'com.bkjk.apollo.test:id/apollo_discovery_id_item_icon', u'com.bkjk.apollo.test:id/apollo_discovery_item_title', u'com.bkjk.apollo.test:id/apollo_discovery_item_source', u'com.bkjk.apollo.test:id/apollo_discovery_item_time', u'com.bkjk.apollo.test:id/apollo_discovery_id_item_icon', u'com.bkjk.apollo.test:id/view_temp', u'com.bkjk.apollo.test:id/ll_main_bottom', u'com.bkjk.apollo.test:id/rl_index', u'com.bkjk.apollo.test:id/iv_index_icon', u'com.bkjk.apollo.test:id/tv_index_text', u'com.bkjk.apollo.test:id/apollo_app_rl_discovery', u'com.bkjk.apollo.test:id/apollo_app_iv_discovery', u'com.bkjk.apollo.test:id/apollo_app_tv_discovery', u'com.bkjk.apollo.test:id/rl_im', u'com.bkjk.apollo.test:id/iv_im', u'com.bkjk.apollo.test:id/tv_im', u'com.bkjk.apollo.test:id/rl_mine', u'com.bkjk.apollo.test:id/iv_mine_icon', u'com.bkjk.apollo.test:id/tv_mine_text', u'android:id/statusBarBackground', u'android:id/navigationBarBackground']
+Thu, 19 Apr 2018 10:07:08 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:08 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/rl_mine
+Thu, 19 Apr 2018 10:07:08 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:08 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:08 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:08 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:09 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/rl_mine
+Thu, 19 Apr 2018 10:07:09 appium-monkey-liyyq.py[line:234] INFO 执行: 第 31 次
+Thu, 19 Apr 2018 10:07:09 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:09 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppHomeActivity
+Thu, 19 Apr 2018 10:07:09 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:09 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/rl_fragment_container', u'com.bkjk.apollo.test:id/apollo_uc_username', u'com.bkjk.apollo.test:id/apollo_uc_phonenumber', u'com.bkjk.apollo.test:id/apollo_uc_photo', u'com.bkjk.apollo.test:id/apollo_uc_setting', u'com.bkjk.apollo.test:id/apollo_uc_loanrecord', u'com.bkjk.apollo.test:id/apollo_uc_bankcard', u'com.bkjk.apollo.test:id/apollo_uc_myticket', u'com.bkjk.apollo.test:id/apollo_uc_info', u'com.bkjk.apollo.test:id/apollo_uc_next', u'com.bkjk.apollo.test:id/apollo_uc_member_center', u'com.bkjk.apollo.test:id/apollo_uc_collect', u'com.bkjk.apollo.test:id/apollo_uc_id_recommend_rel', u'com.bkjk.apollo.test:id/apollo_uc_id_recommend_iv', u'com.bkjk.apollo.test:id/apollo_uc_about_app', u'com.bkjk.apollo.test:id/view_temp', u'com.bkjk.apollo.test:id/ll_main_bottom', u'com.bkjk.apollo.test:id/rl_index', u'com.bkjk.apollo.test:id/iv_index_icon', u'com.bkjk.apollo.test:id/tv_index_text', u'com.bkjk.apollo.test:id/apollo_app_rl_discovery', u'com.bkjk.apollo.test:id/apollo_app_iv_discovery', u'com.bkjk.apollo.test:id/apollo_app_tv_discovery', u'com.bkjk.apollo.test:id/rl_im', u'com.bkjk.apollo.test:id/iv_im', u'com.bkjk.apollo.test:id/tv_im', u'com.bkjk.apollo.test:id/rl_mine', u'com.bkjk.apollo.test:id/iv_mine_icon', u'com.bkjk.apollo.test:id/tv_mine_text', u'android:id/statusBarBackground', u'android:id/navigationBarBackground']
+Thu, 19 Apr 2018 10:07:09 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:09 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/rl_mine
+Thu, 19 Apr 2018 10:07:09 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:10 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:10 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:10 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:10 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/rl_mine
+Thu, 19 Apr 2018 10:07:10 appium-monkey-liyyq.py[line:234] INFO 执行: 第 32 次
+Thu, 19 Apr 2018 10:07:10 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:10 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppHomeActivity
+Thu, 19 Apr 2018 10:07:11 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:11 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/rl_fragment_container', u'com.bkjk.apollo.test:id/apollo_uc_username', u'com.bkjk.apollo.test:id/apollo_uc_phonenumber', u'com.bkjk.apollo.test:id/apollo_uc_photo', u'com.bkjk.apollo.test:id/apollo_uc_setting', u'com.bkjk.apollo.test:id/apollo_uc_loanrecord', u'com.bkjk.apollo.test:id/apollo_uc_bankcard', u'com.bkjk.apollo.test:id/apollo_uc_myticket', u'com.bkjk.apollo.test:id/apollo_uc_info', u'com.bkjk.apollo.test:id/apollo_uc_next', u'com.bkjk.apollo.test:id/apollo_uc_member_center', u'com.bkjk.apollo.test:id/apollo_uc_collect', u'com.bkjk.apollo.test:id/apollo_uc_id_recommend_rel', u'com.bkjk.apollo.test:id/apollo_uc_id_recommend_iv', u'com.bkjk.apollo.test:id/apollo_uc_about_app', u'com.bkjk.apollo.test:id/view_temp', u'com.bkjk.apollo.test:id/ll_main_bottom', u'com.bkjk.apollo.test:id/rl_index', u'com.bkjk.apollo.test:id/iv_index_icon', u'com.bkjk.apollo.test:id/tv_index_text', u'com.bkjk.apollo.test:id/apollo_app_rl_discovery', u'com.bkjk.apollo.test:id/apollo_app_iv_discovery', u'com.bkjk.apollo.test:id/apollo_app_tv_discovery', u'com.bkjk.apollo.test:id/rl_im', u'com.bkjk.apollo.test:id/iv_im', u'com.bkjk.apollo.test:id/tv_im', u'com.bkjk.apollo.test:id/rl_mine', u'com.bkjk.apollo.test:id/iv_mine_icon', u'com.bkjk.apollo.test:id/tv_mine_text', u'android:id/statusBarBackground', u'android:id/navigationBarBackground']
+Thu, 19 Apr 2018 10:07:11 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:11 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/view_temp
+Thu, 19 Apr 2018 10:07:11 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:11 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:11 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:11 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:14 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/view_temp
+Thu, 19 Apr 2018 10:07:14 appium-monkey-liyyq.py[line:234] INFO 执行: 第 33 次
+Thu, 19 Apr 2018 10:07:14 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:15 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppHomeActivity
+Thu, 19 Apr 2018 10:07:15 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:15 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/rl_fragment_container', u'com.bkjk.apollo.test:id/apollo_uc_username', u'com.bkjk.apollo.test:id/apollo_uc_phonenumber', u'com.bkjk.apollo.test:id/apollo_uc_photo', u'com.bkjk.apollo.test:id/apollo_uc_setting', u'com.bkjk.apollo.test:id/apollo_uc_loanrecord', u'com.bkjk.apollo.test:id/apollo_uc_bankcard', u'com.bkjk.apollo.test:id/apollo_uc_myticket', u'com.bkjk.apollo.test:id/apollo_uc_info', u'com.bkjk.apollo.test:id/apollo_uc_next', u'com.bkjk.apollo.test:id/apollo_uc_member_center', u'com.bkjk.apollo.test:id/apollo_uc_collect', u'com.bkjk.apollo.test:id/apollo_uc_id_recommend_rel', u'com.bkjk.apollo.test:id/apollo_uc_id_recommend_iv', u'com.bkjk.apollo.test:id/apollo_uc_about_app', u'com.bkjk.apollo.test:id/view_temp', u'com.bkjk.apollo.test:id/ll_main_bottom', u'com.bkjk.apollo.test:id/rl_index', u'com.bkjk.apollo.test:id/iv_index_icon', u'com.bkjk.apollo.test:id/tv_index_text', u'com.bkjk.apollo.test:id/apollo_app_rl_discovery', u'com.bkjk.apollo.test:id/apollo_app_iv_discovery', u'com.bkjk.apollo.test:id/apollo_app_tv_discovery', u'com.bkjk.apollo.test:id/rl_im', u'com.bkjk.apollo.test:id/iv_im', u'com.bkjk.apollo.test:id/tv_im', u'com.bkjk.apollo.test:id/rl_mine', u'com.bkjk.apollo.test:id/iv_mine_icon', u'com.bkjk.apollo.test:id/tv_mine_text', u'android:id/statusBarBackground', u'android:id/navigationBarBackground']
+Thu, 19 Apr 2018 10:07:15 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:15 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_uc_next
+Thu, 19 Apr 2018 10:07:15 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:15 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:15 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:15 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:16 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/apollo_uc_next
+Thu, 19 Apr 2018 10:07:16 appium-monkey-liyyq.py[line:234] INFO 执行: 第 34 次
+Thu, 19 Apr 2018 10:07:16 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:16 appium-monkey-liyyq.py[line:172] INFO com.bkjk.apollo_uc.activity.UCIdentifyCodeLoginActivity
+Thu, 19 Apr 2018 10:07:16 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:16 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/apollo_uc_code_login_protocol', u'com.bkjk.apollo.test:id/apollo_uc_code_login_et_phone', u'com.bkjk.apollo.test:id/apollo_uc_code_login_get_code', u'com.bkjk.apollo.test:id/apollo_uc_login_code_et_password', u'com.bkjk.apollo.test:id/apollo_uc_code_login_btn', u'com.bkjk.apollo.test:id/apollo_uc_identify_code_login_goregist', u'com.bkjk.apollo.test:id/apollo_uc_id_vertical_line', u'com.bkjk.apollo.test:id/apollo_uc_code_login_use_username']
+Thu, 19 Apr 2018 10:07:16 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:16 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_uc_id_vertical_line
+Thu, 19 Apr 2018 10:07:16 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:16 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:16 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:17 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:20 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/apollo_uc_id_vertical_line
+Thu, 19 Apr 2018 10:07:20 appium-monkey-liyyq.py[line:234] INFO 执行: 第 35 次
+Thu, 19 Apr 2018 10:07:20 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:20 appium-monkey-liyyq.py[line:172] INFO com.bkjk.apollo_uc.activity.UCIdentifyCodeLoginActivity
+Thu, 19 Apr 2018 10:07:20 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:20 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/apollo_uc_code_login_protocol', u'com.bkjk.apollo.test:id/apollo_uc_code_login_et_phone', u'com.bkjk.apollo.test:id/apollo_uc_code_login_get_code', u'com.bkjk.apollo.test:id/apollo_uc_login_code_et_password', u'com.bkjk.apollo.test:id/apollo_uc_code_login_btn', u'com.bkjk.apollo.test:id/apollo_uc_identify_code_login_goregist', u'com.bkjk.apollo.test:id/apollo_uc_id_vertical_line', u'com.bkjk.apollo.test:id/apollo_uc_code_login_use_username']
+Thu, 19 Apr 2018 10:07:20 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:20 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_uc_code_login_protocol
+Thu, 19 Apr 2018 10:07:20 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:21 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:21 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:21 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:21 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/apollo_uc_code_login_protocol
+Thu, 19 Apr 2018 10:07:21 appium-monkey-liyyq.py[line:234] INFO 执行: 第 36 次
+Thu, 19 Apr 2018 10:07:21 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:22 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppWebViewActivity
+Thu, 19 Apr 2018 10:07:22 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:22 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/core_shade_background', u'com.bkjk.apollo.test:id/core_shade_imag', u'com.bkjk.apollo.test:id/mContentView']
+Thu, 19 Apr 2018 10:07:22 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:22 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/core_shade_imag
+Thu, 19 Apr 2018 10:07:22 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:22 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:22 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:22 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:23 appium-monkey-liyyq.py[line:237] INFO Message: An element could not be located on the page using the given search parameters.
+
+Thu, 19 Apr 2018 10:07:23 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:24 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppWebViewActivity
+Thu, 19 Apr 2018 10:07:24 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:24 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/mContentView']
+Thu, 19 Apr 2018 10:07:24 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:24 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:integer/hide_password_duration
+Thu, 19 Apr 2018 10:07:24 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:24 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:24 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:24 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:28 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:integer/hide_password_duration
+Thu, 19 Apr 2018 10:07:28 appium-monkey-liyyq.py[line:234] INFO 执行: 第 37 次
+Thu, 19 Apr 2018 10:07:28 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:28 appium-monkey-liyyq.py[line:172] INFO com.bkjk.apollo_uc.activity.UCIdentifyCodeLoginActivity
+Thu, 19 Apr 2018 10:07:28 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:28 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/apollo_uc_code_login_protocol', u'com.bkjk.apollo.test:id/apollo_uc_code_login_et_phone', u'com.bkjk.apollo.test:id/apollo_uc_code_login_get_code', u'com.bkjk.apollo.test:id/apollo_uc_login_code_et_password', u'com.bkjk.apollo.test:id/apollo_uc_code_login_btn', u'com.bkjk.apollo.test:id/apollo_uc_identify_code_login_goregist', u'com.bkjk.apollo.test:id/apollo_uc_id_vertical_line', u'com.bkjk.apollo.test:id/apollo_uc_code_login_use_username']
+Thu, 19 Apr 2018 10:07:28 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:28 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_uc_id_vertical_line
+Thu, 19 Apr 2018 10:07:28 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:28 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:28 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:28 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:32 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/apollo_uc_id_vertical_line
+Thu, 19 Apr 2018 10:07:32 appium-monkey-liyyq.py[line:234] INFO 执行: 第 38 次
+Thu, 19 Apr 2018 10:07:32 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:32 appium-monkey-liyyq.py[line:172] INFO com.bkjk.apollo_uc.activity.UCIdentifyCodeLoginActivity
+Thu, 19 Apr 2018 10:07:32 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:32 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/apollo_uc_code_login_protocol', u'com.bkjk.apollo.test:id/apollo_uc_code_login_et_phone', u'com.bkjk.apollo.test:id/apollo_uc_code_login_get_code', u'com.bkjk.apollo.test:id/apollo_uc_login_code_et_password', u'com.bkjk.apollo.test:id/apollo_uc_code_login_btn', u'com.bkjk.apollo.test:id/apollo_uc_identify_code_login_goregist', u'com.bkjk.apollo.test:id/apollo_uc_id_vertical_line', u'com.bkjk.apollo.test:id/apollo_uc_code_login_use_username']
+Thu, 19 Apr 2018 10:07:32 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:32 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_uc_code_login_protocol
+Thu, 19 Apr 2018 10:07:32 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:32 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:32 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:33 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:33 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/apollo_uc_code_login_protocol
+Thu, 19 Apr 2018 10:07:33 appium-monkey-liyyq.py[line:234] INFO 执行: 第 39 次
+Thu, 19 Apr 2018 10:07:33 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:33 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppWebViewActivity
+Thu, 19 Apr 2018 10:07:34 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:34 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/mContentView']
+Thu, 19 Apr 2018 10:07:34 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:34 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/core_layout_body_id
+Thu, 19 Apr 2018 10:07:34 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:34 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:34 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:34 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:35 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/core_layout_body_id
+Thu, 19 Apr 2018 10:07:35 appium-monkey-liyyq.py[line:234] INFO 执行: 第 40 次
+Thu, 19 Apr 2018 10:07:35 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:35 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppWebViewActivity
+Thu, 19 Apr 2018 10:07:35 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:35 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/mContentView']
+Thu, 19 Apr 2018 10:07:35 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:35 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:integer/hide_password_duration
+Thu, 19 Apr 2018 10:07:35 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:35 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:35 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:36 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:39 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:integer/hide_password_duration
+Thu, 19 Apr 2018 10:07:39 appium-monkey-liyyq.py[line:234] INFO 执行: 第 41 次
+Thu, 19 Apr 2018 10:07:39 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:39 appium-monkey-liyyq.py[line:172] INFO com.bkjk.apollo_uc.activity.UCIdentifyCodeLoginActivity
+Thu, 19 Apr 2018 10:07:39 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:39 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/apollo_uc_code_login_protocol', u'com.bkjk.apollo.test:id/apollo_uc_code_login_et_phone', u'com.bkjk.apollo.test:id/apollo_uc_code_login_get_code', u'com.bkjk.apollo.test:id/apollo_uc_login_code_et_password', u'com.bkjk.apollo.test:id/apollo_uc_code_login_btn', u'com.bkjk.apollo.test:id/apollo_uc_identify_code_login_goregist', u'com.bkjk.apollo.test:id/apollo_uc_id_vertical_line', u'com.bkjk.apollo.test:id/apollo_uc_code_login_use_username']
+Thu, 19 Apr 2018 10:07:39 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:39 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_uc_code_login_et_phone
+Thu, 19 Apr 2018 10:07:39 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:40 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:40 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:40 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:41 appium-monkey-liyyq.py[line:218] INFO swipe:[(270, 1359), (270, 1359)]
+Thu, 19 Apr 2018 10:07:41 appium-monkey-liyyq.py[line:234] INFO 执行: 第 42 次
+Thu, 19 Apr 2018 10:07:41 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:41 appium-monkey-liyyq.py[line:172] INFO com.apollo.activity.AppWebViewActivity
+Thu, 19 Apr 2018 10:07:41 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:41 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/mContentView']
+Thu, 19 Apr 2018 10:07:41 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:41 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:integer/hide_password_duration
+Thu, 19 Apr 2018 10:07:41 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:41 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:41 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:42 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:45 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:integer/hide_password_duration
+Thu, 19 Apr 2018 10:07:45 appium-monkey-liyyq.py[line:234] INFO 执行: 第 43 次
+Thu, 19 Apr 2018 10:07:45 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:45 appium-monkey-liyyq.py[line:172] INFO com.bkjk.apollo_uc.activity.UCIdentifyCodeLoginActivity
+Thu, 19 Apr 2018 10:07:45 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:45 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/apollo_uc_code_login_protocol', u'com.bkjk.apollo.test:id/apollo_uc_code_login_et_phone', u'com.bkjk.apollo.test:id/apollo_uc_code_login_get_code', u'com.bkjk.apollo.test:id/apollo_uc_login_code_et_password', u'com.bkjk.apollo.test:id/apollo_uc_code_login_btn', u'com.bkjk.apollo.test:id/apollo_uc_identify_code_login_goregist', u'com.bkjk.apollo.test:id/apollo_uc_id_vertical_line', u'com.bkjk.apollo.test:id/apollo_uc_code_login_use_username']
+Thu, 19 Apr 2018 10:07:45 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:45 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_uc_identify_code_login_goregist
+Thu, 19 Apr 2018 10:07:45 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:46 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:46 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:46 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:46 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/apollo_uc_identify_code_login_goregist
+Thu, 19 Apr 2018 10:07:46 appium-monkey-liyyq.py[line:234] INFO 执行: 第 44 次
+Thu, 19 Apr 2018 10:07:46 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:47 appium-monkey-liyyq.py[line:172] INFO com.bkjk.apollo_uc.activity.UCRegistActivity
+Thu, 19 Apr 2018 10:07:47 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:47 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/apollo_app_et_phone', u'com.bkjk.apollo.test:id/apollo_app_et_vertifycode', u'com.bkjk.apollo.test:id/apollo_app_tv_getvertifycode', u'com.bkjk.apollo.test:id/apollo_uc_password_tv', u'com.bkjk.apollo.test:id/apollo_app_et_newpwd', u'com.bkjk.apollo.test:id/apollo_app_tv_hide_show', u'com.bkjk.apollo.test:id/apollo_uc_regist_checkbox', u'com.bkjk.apollo.test:id/apollo_uc_regist_userProtocal', u'com.bkjk.apollo.test:id/apollo_uc_regist_bt']
+Thu, 19 Apr 2018 10:07:47 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:47 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_app_et_vertifycode
+Thu, 19 Apr 2018 10:07:47 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:47 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:47 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:48 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:48 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/apollo_app_et_vertifycode
+Thu, 19 Apr 2018 10:07:48 appium-monkey-liyyq.py[line:234] INFO 执行: 第 45 次
+Thu, 19 Apr 2018 10:07:48 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:48 appium-monkey-liyyq.py[line:172] INFO com.bkjk.apollo_uc.activity.UCRegistActivity
+Thu, 19 Apr 2018 10:07:48 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:48 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/apollo_app_et_phone', u'com.bkjk.apollo.test:id/apollo_app_et_vertifycode', u'com.bkjk.apollo.test:id/apollo_app_tv_getvertifycode', u'com.bkjk.apollo.test:id/apollo_uc_password_tv', u'com.bkjk.apollo.test:id/apollo_app_et_newpwd', u'com.bkjk.apollo.test:id/apollo_app_tv_hide_show', u'com.bkjk.apollo.test:id/apollo_uc_regist_checkbox', u'com.bkjk.apollo.test:id/apollo_uc_regist_userProtocal', u'com.bkjk.apollo.test:id/apollo_uc_regist_bt']
+Thu, 19 Apr 2018 10:07:48 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:48 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_app_tv_hide_show
+Thu, 19 Apr 2018 10:07:48 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:49 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:49 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:49 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:49 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/apollo_app_tv_hide_show
+Thu, 19 Apr 2018 10:07:49 appium-monkey-liyyq.py[line:234] INFO 执行: 第 46 次
+Thu, 19 Apr 2018 10:07:49 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:50 appium-monkey-liyyq.py[line:172] INFO com.bkjk.apollo_uc.activity.UCRegistActivity
+Thu, 19 Apr 2018 10:07:50 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:50 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/apollo_app_et_phone', u'com.bkjk.apollo.test:id/apollo_app_et_vertifycode', u'com.bkjk.apollo.test:id/apollo_app_tv_getvertifycode', u'com.bkjk.apollo.test:id/apollo_uc_password_tv', u'com.bkjk.apollo.test:id/apollo_app_et_newpwd', u'com.bkjk.apollo.test:id/apollo_app_tv_hide_show', u'com.bkjk.apollo.test:id/apollo_uc_regist_checkbox', u'com.bkjk.apollo.test:id/apollo_uc_regist_userProtocal', u'com.bkjk.apollo.test:id/apollo_uc_regist_bt']
+Thu, 19 Apr 2018 10:07:50 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:50 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_app_et_newpwd
+Thu, 19 Apr 2018 10:07:50 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:50 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:50 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:50 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:51 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/apollo_app_et_newpwd
+Thu, 19 Apr 2018 10:07:51 appium-monkey-liyyq.py[line:234] INFO 执行: 第 47 次
+Thu, 19 Apr 2018 10:07:51 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:51 appium-monkey-liyyq.py[line:172] INFO com.bkjk.apollo_uc.activity.UCRegistActivity
+Thu, 19 Apr 2018 10:07:51 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:51 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/apollo_app_et_phone', u'com.bkjk.apollo.test:id/apollo_app_et_vertifycode', u'com.bkjk.apollo.test:id/apollo_app_tv_getvertifycode', u'com.bkjk.apollo.test:id/apollo_uc_password_tv', u'com.bkjk.apollo.test:id/apollo_app_et_newpwd', u'com.bkjk.apollo.test:id/apollo_app_tv_hide_show', u'com.bkjk.apollo.test:id/apollo_uc_regist_checkbox', u'com.bkjk.apollo.test:id/apollo_uc_regist_userProtocal', u'com.bkjk.apollo.test:id/apollo_uc_regist_bt']
+Thu, 19 Apr 2018 10:07:51 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:51 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_app_et_vertifycode
+Thu, 19 Apr 2018 10:07:51 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:51 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:51 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:51 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:07:52 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/apollo_app_et_vertifycode
+Thu, 19 Apr 2018 10:07:52 appium-monkey-liyyq.py[line:234] INFO 执行: 第 48 次
+Thu, 19 Apr 2018 10:07:52 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:52 appium-monkey-liyyq.py[line:172] INFO com.bkjk.apollo_uc.activity.UCRegistActivity
+Thu, 19 Apr 2018 10:07:52 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:52 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/apollo_app_et_phone', u'com.bkjk.apollo.test:id/apollo_app_et_vertifycode', u'com.bkjk.apollo.test:id/apollo_app_tv_getvertifycode', u'com.bkjk.apollo.test:id/apollo_uc_password_tv', u'com.bkjk.apollo.test:id/apollo_app_et_newpwd', u'com.bkjk.apollo.test:id/apollo_app_tv_hide_show', u'com.bkjk.apollo.test:id/apollo_uc_regist_checkbox', u'com.bkjk.apollo.test:id/apollo_uc_regist_userProtocal', u'com.bkjk.apollo.test:id/apollo_uc_regist_bt']
+Thu, 19 Apr 2018 10:07:52 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:52 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_uc_regist_bt
+Thu, 19 Apr 2018 10:07:52 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:53 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:53 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:53 appium-monkey-liyyq.py[line:213] INFO isenable:False
+Thu, 19 Apr 2018 10:07:56 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/apollo_uc_regist_bt
+Thu, 19 Apr 2018 10:07:56 appium-monkey-liyyq.py[line:234] INFO 执行: 第 49 次
+Thu, 19 Apr 2018 10:07:56 appium-monkey-liyyq.py[line:171] INFO ------------------current_activity---------------------
+Thu, 19 Apr 2018 10:07:57 appium-monkey-liyyq.py[line:172] INFO com.bkjk.apollo_uc.activity.UCRegistActivity
+Thu, 19 Apr 2018 10:07:57 appium-monkey-liyyq.py[line:174] INFO ------------------------id all--------------------------
+Thu, 19 Apr 2018 10:07:57 appium-monkey-liyyq.py[line:179] INFO [u'android:id/content', u'com.bkjk.apollo.test:integer/hide_password_duration', u'com.bkjk.apollo.test:id/core_layout_body_id', u'com.bkjk.apollo.test:id/apollo_app_et_phone', u'com.bkjk.apollo.test:id/apollo_app_et_vertifycode', u'com.bkjk.apollo.test:id/apollo_app_tv_getvertifycode', u'com.bkjk.apollo.test:id/apollo_uc_password_tv', u'com.bkjk.apollo.test:id/apollo_app_et_newpwd', u'com.bkjk.apollo.test:id/apollo_app_tv_hide_show', u'com.bkjk.apollo.test:id/apollo_uc_regist_checkbox', u'com.bkjk.apollo.test:id/apollo_uc_regist_userProtocal', u'com.bkjk.apollo.test:id/apollo_uc_regist_bt']
+Thu, 19 Apr 2018 10:07:57 appium-monkey-liyyq.py[line:180] INFO ------------------------choice id------------------------
+Thu, 19 Apr 2018 10:07:57 appium-monkey-liyyq.py[line:185] INFO com.bkjk.apollo.test:id/apollo_uc_password_tv
+Thu, 19 Apr 2018 10:07:57 appium-monkey-liyyq.py[line:186] INFO ------------------------app is exist?------------------------
+Thu, 19 Apr 2018 10:07:57 appium-monkey-liyyq.py[line:188] INFO yes
+Thu, 19 Apr 2018 10:07:57 appium-monkey-liyyq.py[line:211] INFO ------------------------monkey--------------------------
+Thu, 19 Apr 2018 10:07:57 appium-monkey-liyyq.py[line:213] INFO isenable:True
+Thu, 19 Apr 2018 10:08:01 appium-monkey-liyyq.py[line:230] INFO 点击:com.bkjk.apollo.test:id/apollo_uc_password_tv
+Thu, 19 Apr 2018 10:08:01 appium-monkey-liyyq.py[line:234] INFO 执行: 第 50 次
+Thu, 19 Apr 2018 10:08:01 appium-monkey-liyyq.py[line:239] INFO ====================end========================
+Thu, 19 Apr 2018 10:08:01 appium-monkey-liyyq.py[line:240] INFO count:50
+Thu, 19 Apr 2018 10:08:01 appium-monkey-liyyq.py[line:241] INFO Error Message:2
+Thu, 19 Apr 2018 10:08:01 appium-monkey-liyyq.py[line:242] INFO 145.882999897秒

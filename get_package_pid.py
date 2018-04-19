@@ -1,5 +1,6 @@
 import os
 import shlex
+import psutil
 
 def get_pid(packageName):
     try:
@@ -10,6 +11,24 @@ def get_pid(packageName):
         print e
 
 
+def get_namepid(name):
+    idlist=[]
+    pid=psutil.pids()
+    for id in pid:
+        p = psutil.Process(id)
+        if name in p.name():
+            idlist.append(id)
+        else:
+            pass
+    return idlist
+
+def kill_pid(name):
+    for i in get_namepid(name):
+        os.kill(i,9)
 
 if __name__ == '__main__':
-    print get_pid('com.bkjk.apollo.test')
+    # print get_pid('com.bkjk.apollo.test')
+    # print get_pid('adb.exe')
+    print get_namepid('adb.exe')
+    kill_pid('adb.exe')
+    # print p
