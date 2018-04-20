@@ -170,6 +170,27 @@ def run_case():
             # time.sleep(1)
             logging.info('------------------current_activity---------------------')
             logging.info(driver.current_activity)
+            if 'apollo' not in driver.current_activity:
+                driver.press_keycode(4)
+                time.sleep(0.2)
+                if 'apollo' not in driver.current_activity:
+                    logging.info('not find APP,ready to restart......')
+                    driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps())
+                    if '.AppGuideActivity' in driver.current_activity:
+                        try:
+                            time.sleep(4)
+                            swipeLeft()
+                            swipeLeft()
+                            driver.implicitly_wait(6)
+                            driver.find_element_by_id("com.bkjk.apollo.test:id/btn_enter_home").click()
+                        except Exception as e:
+                            logging.info(e)
+                    else:
+                        pass
+                else:
+                    pass
+            else:
+                pass
             result=driver.page_source
             logging.info("------------------------id all--------------------------")
             id_result=re.findall('resource-id="(.*?)" instance=',result,re.S)
@@ -223,8 +244,8 @@ def run_case():
             else:
                 # print activity + ' Scroll Up'
                 if 'android:id' in cc:
-                    swiperandom()
-                    logging.info('滑动:'+str(swiperandom()))
+                    driver.press_keycode(4)
+                    logging.info('点击 Back')
                 else:
                     driver.find_element_by_id(cc).click()
                     logging.info('点击:'+str(cc))
@@ -234,12 +255,12 @@ def run_case():
             logging.info("执行: 第 "+str(count)+' 次')
         except Exception as e:
             error_count = error_count + 1
-            logging.info(e)
+            logging.info('Error '+str(e))
             continue
     logging.info("====================end========================")
     logging.info("count:" + str(count))
     logging.info('Error Message:'+ str(error_count))
-    logging.info(str(time.time() - t) + "秒")
+    logging.info('%.3f'%(time.time()-t) + "秒")
 
 
 #定义logcat输出
