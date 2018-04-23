@@ -42,25 +42,6 @@ formatter = logging.Formatter('[%(asctime)s] %(filename)s:%(levelname)s: %(messa
 console.setFormatter(formatter)
 logger.addHandler(console)#fib
 
-#创建写入日志
-# logcat_file=logging.FileHandler(FILE+filename)
-# logcat_file.setLevel(logging.INFO)
-# formatter2 = logging.Formatter('[%(asctime)s][%(thread)d][%(filename)s][line: %(lineno)d][%(levelname)s] ## %(message)s')
-# logcat_file.setFormatter(formatter2)
-# logger.addHandler(formatter2)
-
-# logcat日志
-# with open(FILE + filename, 'a+') as logcat_file:
-#     Poplog2 = subprocess.Popen('adb logcat -v time -s*:W >> %s' % (FILE + filename), stdout=logcat_file,
-#                                stderr=subprocess.PIPE)
-#     # logcat_file.writelines(str(Poplog2))
-#
-# # Poplog.terminate()
-# Poplog2.terminate()
-
-
-
-
 x=raw_input(u'请输入MONKEY循环次数:')
 
 def swipeLeft():
