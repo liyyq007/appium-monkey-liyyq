@@ -245,7 +245,7 @@ def run_case():
 
 
 #定义logcat输出
-FILE2 =FILE+'<'+ desired_caps()['deviceName']+'>'+now + '.log'
+FILE2 =FILE+'【'+ desired_caps()['deviceName']+'】'+now + '.log'
 with open(FILE2, 'w') as logcat_file:
         # os.popen(LogcatAndroid.logcat_filein(desired_caps()['appPackage'], FILE2))
     Poplog= subprocess.Popen(LogcatAndroid.logcat_filein(desired_caps()['appPackage']),shell=True,stdout=logcat_file,stderr=subprocess.PIPE)
