@@ -103,11 +103,15 @@ def desired_caps():
     return caps
 
 tt=[]
+driver_num={}
+driver=locals()
 for i in range(0,len(AndroidDebugBridge().attached_devices())):
-    driver = webdriver.Remote('http://localhost:'+str(4723+2*i)+'/wd/hub', desired_caps()[i])
+    driver['driver%s'%i] = webdriver.Remote('http://localhost:'+str(4723+2*i)+'/wd/hub', desired_caps()[i])
+    driver_num['%s'%i] = 'driver%s' % i
+print driver
+print driver_num
+# print 'locals()',locals()
 
-    t=threading.Thread(target=run_case())
-    tt.append(t)
 
 
 
@@ -124,8 +128,9 @@ t = time.time()
 
 
 
-def run_case(dd):
-    global dd
+def run_case(dd,i):
+
+    # global dd
     # lisst=driver.find_elements_by_xpath('//*')#展示全部xpath路径
     # print lisst
     logging.info("-------------current_activity------------------")
@@ -155,13 +160,13 @@ def run_case(dd):
         try:
             # time.sleep(1)
             logging.info('------------------current_activity---------------------')
-            logging.info(driver.current_activity)
+            logging.info(dd.current_activity)
             if 'apollo' not in dd.current_activity:
                 dd.press_keycode(4)
                 time.sleep(0.2)
                 if 'apollo' not in dd.current_activity:
                     logging.info('not find APP,ready to restart......')
-                    dd = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps())
+                    dd = webdriver.Remote('http://localhost:'+str(4723+2*i)+'/wd/hub', desired_caps())
                     if '.AppGuideActivity' in dd.current_activity:
                         try:
                             time.sleep(4)
@@ -191,7 +196,7 @@ def run_case(dd):
             # print bb
             logging.info(cc)
             logging.info("------------------------app is exist?------------------------")
-            if desired_caps()['appPackage'] in cc:
+            if desired_caps()[i]['appPackage'] in cc:
                 logging.info('yes')
                 pass
             elif 'android:id' in cc:
@@ -199,16 +204,16 @@ def run_case(dd):
                 pass
             else:
                 logging.info('no')
-                driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps())
+                dd = webdriver.Remote('http://localhost:'+str(4723+2*i)+'/wd/hub', desired_caps())
                 '''这会有问题-------给变量取的这个名字，可能会冲突，它是函数外部的变量，因为全局变量driver的值被修改
                 -----在函数内加global driver，内部作用域的想要修改外部作用域的变量，就要使用global关键字'''
-                if '.AppGuideActivity' in driver.current_activity:
+                if '.AppGuideActivity' in dd.current_activity:
                     try:
                         time.sleep(4)
                         swipeLeft()
                         swipeLeft()
-                        driver.implicitly_wait(6)
-                        driver.find_element_by_id("com.bkjk.apollo.test:id/btn_enter_home").click()
+                        dd.implicitly_wait(6)
+                        dd.find_element_by_id("com.bkjk.apollo.test:id/btn_enter_home").click()
                     except Exception as e:
                         logging.info(e)
                 else:
@@ -216,7 +221,7 @@ def run_case(dd):
                 continue
 
             logging.info("------------------------monkey--------------------------")  # 慢的问题？
-            enable = driver.find_element_by_id(cc).is_enabled()
+            enable = dd.find_element_by_id(cc).is_enabled()
             logging.info('isenable:' + str(enable))
             rate = random.randint(1, 10)  # 调整动作几率
             if rate == 1:
@@ -225,15 +230,15 @@ def run_case(dd):
                 logging.info('swipe:' + str(swiperandom()))
             elif rate == 10:
                 # print activity + ' Key Back'
-                driver.press_keycode(4)
+                dd.press_keycode(4)
                 logging.info('点击 Back')
             else:
                 # print activity + ' Scroll Up'
                 if 'android:id' in cc:
-                    driver.press_keycode(4)
+                    dd.press_keycode(4)
                     logging.info('点击 Back')
                 else:
-                    driver.find_element_by_id(cc).click()
+                    dd.find_element_by_id(cc).click()
                     logging.info('点击:' + str(cc))
 
             count = count + 1
@@ -252,10 +257,12 @@ def run_case(dd):
 
 
 #定义logcat输出
-FILE2 =FILE+ 'logcat'+now + '.log'
-with open(FILE2, 'w') as logcat_file:
-        # os.popen(LogcatAndroid.logcat_filein(desired_caps()['appPackage'], FILE2))
-    Poplog= subprocess.Popen(LogcatAndroid.logcat_filein(desired_caps()['appPackage']),shell=True,stdout=logcat_file,stderr=subprocess.PIPE)
+
+for i in range(0,len(AndroidDebugBridge().attached_devices())):
+    FILE2 = FILE + '【' + desired_caps()[i]['deviceName'] + '】' + now + '.log'
+    with open(FILE2, 'w') as logcat_file:
+            # os.popen(LogcatAndroid.logcat_filein(desired_caps()['appPackage'], FILE2))
+        Poplog= subprocess.Popen(LogcatAndroid.logcat_filein(desired_caps()[i]['appPackage']),shell=True,stdout=logcat_file,stderr=subprocess.PIPE)
 
 
 if __name__ == '__main__':
@@ -263,7 +270,10 @@ if __name__ == '__main__':
     print devices_info()
     # a = AppiumServer(devices_info())
     # a.start_server()
-    run_case()
+    for i in range(0,len(AndroidDebugBridge().attached_devices())):
+        run_case(desired_caps()[i]['deviceName'],i)
+    # t=threading.Thread(target=run_case())
+    # tt.append(t)
     time.sleep(5)
     kill_pid('adb.exe')
     Poplog.terminate()
