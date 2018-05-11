@@ -83,8 +83,8 @@ def devices_info():
                 app["bport"] = str(random.randint(4700, 4900))
                 app["systemPort"] = str(random.randint(4700, 4900))
                 l_devices.append(app)
-
-        for i in range(0, len(l_devices)):
+            # return l_devices#返回全部设备
+        for i in range(0, len(l_devices)):#只取最后一个设备
             pass
         return l_devices[i]
     except Exception as e:
@@ -245,7 +245,7 @@ def run_case():
 
 
 #定义logcat输出
-FILE2 =FILE+ 'logcat'+now + '.log'
+FILE2 =FILE+'<'+ desired_caps()['deviceName']+'>'+now + '.log'
 with open(FILE2, 'w') as logcat_file:
         # os.popen(LogcatAndroid.logcat_filein(desired_caps()['appPackage'], FILE2))
     Poplog= subprocess.Popen(LogcatAndroid.logcat_filein(desired_caps()['appPackage']),shell=True,stdout=logcat_file,stderr=subprocess.PIPE)
