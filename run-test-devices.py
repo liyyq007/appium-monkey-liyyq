@@ -84,7 +84,7 @@ def find_element_by_id_no_except(id):
 #多设备并行连接
 def desired_caps():
     caps=[]
-    print AndroidDebugBridge().attached_devices()
+    # print AndroidDebugBridge().attached_devices()
     for i in range(0,len(AndroidDebugBridge().attached_devices())):
         desired_caps = {}
         desired_caps['platformName']='Android'
@@ -99,7 +99,7 @@ def desired_caps():
         desired_caps['resetKeyboard']= True    #运行完成后重置软键盘的状态　　
         caps.append(desired_caps)
         # driver = webdriver.Remote('http://localhost:'+str(4723+2*i)+'/wd/hub', caps[i])
-    print caps
+    # print 'caps:',caps
     return caps
 
 tt=[]
@@ -134,6 +134,8 @@ def run_case(dd,i):
     # lisst=driver.find_elements_by_xpath('//*')#展示全部xpath路径
     # print lisst
     logging.info("-------------current_activity------------------")
+    print dd
+    print dd.current_activity
     aa = dd.current_activity
     logging.info(aa)
     if '.AppGuideActivity' in aa:
@@ -166,7 +168,7 @@ def run_case(dd,i):
                 time.sleep(0.2)
                 if 'apollo' not in dd.current_activity:
                     logging.info('not find APP,ready to restart......')
-                    dd = webdriver.Remote('http://localhost:'+str(4723+2*i)+'/wd/hub', desired_caps())
+                    dd = webdriver.Remote('http://localhost:'+str(4723+2*i)+'/wd/hub', desired_caps()[i])
                     if '.AppGuideActivity' in dd.current_activity:
                         try:
                             time.sleep(4)
@@ -204,7 +206,7 @@ def run_case(dd,i):
                 pass
             else:
                 logging.info('no')
-                dd = webdriver.Remote('http://localhost:'+str(4723+2*i)+'/wd/hub', desired_caps())
+                dd = webdriver.Remote('http://localhost:'+str(4723+2*i)+'/wd/hub', desired_caps()[i])
                 '''这会有问题-------给变量取的这个名字，可能会冲突，它是函数外部的变量，因为全局变量driver的值被修改
                 -----在函数内加global driver，内部作用域的想要修改外部作用域的变量，就要使用global关键字'''
                 if '.AppGuideActivity' in dd.current_activity:
@@ -271,7 +273,7 @@ if __name__ == '__main__':
     # a = AppiumServer(devices_info())
     # a.start_server()
     for i in range(0,len(AndroidDebugBridge().attached_devices())):
-        run_case(desired_caps()[i]['deviceName'],i)
+        run_case(driver['driver%s'%i],i)#加多线程
     # t=threading.Thread(target=run_case())
     # tt.append(t)
     time.sleep(5)
