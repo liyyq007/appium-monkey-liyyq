@@ -102,7 +102,7 @@ def desired_caps():
     # print 'caps:',caps
     return caps
 
-tt=[]
+
 driver_num={}
 driver=locals()
 for i in range(0,len(AndroidDebugBridge().attached_devices())):
@@ -245,7 +245,7 @@ def run_case(dd,i):
 
             count = count + 1
 
-            logging.info("执行: 第 " + str(count) + ' 次')
+            logging.info("已执行: 第 " + str(count) + ' 次')
         except Exception as e:
             error_count = error_count + 1
             logging.info('Error ' + str(e))
@@ -255,7 +255,10 @@ def run_case(dd,i):
     logging.info('Error Message:' + str(error_count))
     logging.info('%.3f' % (time.time() - t) + "秒")
 
-
+threads = []
+for i in range(0,len(AndroidDebugBridge().attached_devices())):
+    t=threading.Thread(target=run_case(driver['driver%s'%i],i))#加多线程
+    threads.append(t)
 
 
 #定义logcat输出
@@ -272,8 +275,9 @@ if __name__ == '__main__':
     print devices_info()
     # a = AppiumServer(devices_info())
     # a.start_server()
-    for i in range(0,len(AndroidDebugBridge().attached_devices())):
-        run_case(driver['driver%s'%i],i)#加多线程
+
+    for tt in threads:
+        tt.start()
     # t=threading.Thread(target=run_case())
     # tt.append(t)
     time.sleep(5)

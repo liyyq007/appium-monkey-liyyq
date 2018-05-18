@@ -12,6 +12,7 @@ import LogcatAndroid
 import subprocess
 from get_package_pid import get_pid
 from get_package_pid import kill_pid
+from choice_devices import choice_devices
 
 #定义系统输出编码
 reload(sys)
@@ -42,7 +43,9 @@ formatter = logging.Formatter('[%(asctime)s] %(filename)s:%(levelname)s: %(messa
 console.setFormatter(formatter)
 logger.addHandler(console)#fib
 
-x=raw_input(u'请输入MONKEY循环次数:')
+
+
+
 
 def swipeLeft():
     width = driver.get_window_size()["width"]
@@ -84,17 +87,26 @@ def devices_info():
                 app["systemPort"] = str(random.randint(4700, 4900))
                 l_devices.append(app)
             # return l_devices#返回全部设备
-        for i in range(0, len(l_devices)):#只取最后一个设备
-            pass
-        return l_devices[i]
+        # for i in range(0, len(l_devices)):
+        #     pass
+        return l_devices
     except Exception as e:
         print u'设备连接异常,请检查设备连接',e
+
+
+w=choice_devices()
+x=raw_input(u'请输入MONKEY循环次数:')
+y=raw_input(u'请输入appium对应端口号，如跳过则默认为4723:')
+if y is '':
+    y='4723'
+else:
+    pass
 
 def desired_caps():
     desired_caps = {}
     desired_caps['platformName']='Android'
-    desired_caps['deviceName']= devices_info()["devices"]
-    desired_caps['platformVersion']= getPhoneInfo(devices_info()["devices"])["release"]
+    desired_caps['deviceName']= devices_info()[w]["devices"]
+    desired_caps['platformVersion']= getPhoneInfo(devices_info()[w]["devices"])["release"]
     desired_caps['appPackage']= 'com.bkjk.apollo.test'
     desired_caps['appActivity']= 'com.apollo.activity.AppLaucherActivity'
     # desired_caps['app']=
@@ -104,7 +116,7 @@ def desired_caps():
     desired_caps['resetKeyboard']= True    #运行完成后重置软键盘的状态　　
     return desired_caps
 
-driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps())
+driver = webdriver.Remote('http://localhost:'+y+'/wd/hub', desired_caps())
 
 logging.info("----------------所有连接的设备--------------------")
 logging.info(devices_info())
@@ -156,7 +168,7 @@ def run_case():
                 time.sleep(0.2)
                 if 'apollo' not in driver.current_activity:
                     logging.info('not find APP,ready to restart......')
-                    driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps())
+                    driver = webdriver.Remote('http://localhost:'+y+'/wd/hub', desired_caps())
                     if '.AppGuideActivity' in driver.current_activity:
                         try:
                             time.sleep(4)
@@ -194,7 +206,7 @@ def run_case():
                 pass
             else:
                 logging.info('no')
-                driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps())
+                driver = webdriver.Remote('http://localhost:'+y+'/wd/hub', desired_caps())
                 '''这会有问题-------给变量取的这个名字，可能会冲突，它是函数外部的变量，因为全局变量driver的值被修改
                 -----在函数内加global driver，内部作用域的想要修改外部作用域的变量，就要使用global关键字'''
                 if '.AppGuideActivity' in driver.current_activity:
@@ -244,11 +256,13 @@ def run_case():
     logging.info('%.3f'%(time.time()-t) + "秒")
 
 
-#定义logcat输出
-FILE2 =FILE+'【'+ desired_caps()['deviceName']+'】'+now + '.log'
+'''
+定义logcat输出
+'''
+FILE2 =FILE+''+ desired_caps()['deviceName']+''+now + '.log'
 with open(FILE2, 'w') as logcat_file:
         # os.popen(LogcatAndroid.logcat_filein(desired_caps()['appPackage'], FILE2))
-    Poplog= subprocess.Popen(LogcatAndroid.logcat_filein(desired_caps()['appPackage']),shell=True,stdout=logcat_file,stderr=subprocess.PIPE)
+    Poplog= subprocess.Popen(LogcatAndroid.logcat_filein(w,desired_caps()['appPackage']),shell=True,stdout=logcat_file,stderr=subprocess.PIPE)
 
 
 if __name__ == '__main__':
