@@ -5,7 +5,7 @@ from BaseAdb import AndroidDebugBridge
 
 def get_pid(n,packageName):
     try:
-        p2=os.popen('adb -s %s shell ps | findstr %s' % (AndroidDebugBridge().attached_devices()[int(n)-1],packageName))
+        p2=os.popen('adb -s %s shell ps | findstr %s' % (AndroidDebugBridge().attached_devices()[int(n)],packageName))
         args = shlex.split(p2)
         return args[1]
     except Exception as e:
@@ -30,7 +30,7 @@ def kill_pid(name):
 
 
 if __name__ == '__main__':
-    print get_pid(2,'com.bkjk.apollo.test')
+    print get_pid(0,'com.bkjk.apollo.test')
     # print get_pid('adb.exe')
     # print get_namepid('adb.exe')
     # kill_pid('adb.exe')

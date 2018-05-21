@@ -118,8 +118,8 @@ def desired_caps():
 
 driver = webdriver.Remote('http://localhost:'+y+'/wd/hub', desired_caps())
 
-logging.info("----------------所有连接的设备--------------------")
-logging.info(devices_info())
+logging.info("----------------执行测试的设备--------------------")
+logging.info(AndroidDebugBridge().attached_devices()[w])
 
 t = time.time()
 #启动，drivers=driver()多次调用相当于重复启动----错误
@@ -259,9 +259,10 @@ def run_case():
 '''
 定义logcat输出
 '''
-FILE2 =FILE+''+ desired_caps()['deviceName']+''+now + '.log'
+FILE2 =FILE+'【'+ desired_caps()['deviceName']+'】'+now + '.log'
 with open(FILE2, 'w') as logcat_file:
         # os.popen(LogcatAndroid.logcat_filein(desired_caps()['appPackage'], FILE2))
+    print LogcatAndroid.logcat_filein(w,desired_caps()['appPackage'])
     Poplog= subprocess.Popen(LogcatAndroid.logcat_filein(w,desired_caps()['appPackage']),shell=True,stdout=logcat_file,stderr=subprocess.PIPE)
 
 
@@ -269,9 +270,10 @@ if __name__ == '__main__':
     # print desired_caps()['appPackage']
     run_case()
     # driver.quit()
-    time.sleep(5)
-    kill_pid('adb.exe')
+    # time.sleep(3)
     Poplog.terminate()
+    time.sleep(180)
+    kill_pid('adb.exe')
 
 
 

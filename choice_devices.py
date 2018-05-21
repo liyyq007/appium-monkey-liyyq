@@ -22,7 +22,12 @@ def devices_info():
         print u'设备连接异常,请检查设备连接',e
 
 def choice_devices():
-    n=int(raw_input('devices列表：\n%s \n请选择设备(1,2,3,4....):'%AndroidDebugBridge().attached_devices()))-1
+    if len(AndroidDebugBridge().attached_devices())==1:
+        n=0
+    elif len(AndroidDebugBridge().attached_devices())>1:
+        n=int(raw_input('devices列表：\n%s \n请选择设备(1,2,3,4....):'%AndroidDebugBridge().attached_devices()))-1
+    else:
+        print '设备连接异常,请检查设备连接'
     return n
 
 if __name__ == '__main__':

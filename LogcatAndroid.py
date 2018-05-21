@@ -4,15 +4,16 @@
 import os
 import sys
 import subprocess
+from BaseAdb import AndroidDebugBridge
 
 from get_package_pid import get_pid
 
 def logcat_filein(n,packageName):
     # logcat_file=open('log1.txt','w')
-    cmd = 'adb shell "logcat |grep --color=always -E \"%s\""  '% get_pid(n,packageName)
+    cmd = 'adb -s %s shell "logcat |grep --color=always -E \"%s\""  '% (AndroidDebugBridge().attached_devices()[int(n)],get_pid(n,packageName))
     # cmd = 'adb logcat '
-    # cmd='adb shell "logcat | grep --color=always -E \"com.bkjk.apollo.test\"" -f D:/test/appium-monkey-liyyq/log.txt -s "TAG：*"'
-    # os.popen(cmd)
+    # cmd='adb shell "logcat | grep --color=always -E \"com.bkjk.apollo.test\"" '
+    # os.system(cmd)
     # print os.system(cmd)
     return cmd
 
@@ -32,7 +33,8 @@ def logcat(packageName):
 if __name__ == '__main__':
     # p=subprocess.Popen(logcat_filein('com.bkjk.apollo.test','112.txt'))
     # p = subprocess.Popen('adb shell logcat >> 111.txt')
-    print logcat_filein('com.bkjk.apollo.test')
+
+    print logcat_filein(0,"com.bkjk.apollo.test")
     # LogcatAndroid.logcat_filein(desired_caps()['appPackage']), shell = True, stdout = logcat_file, stderr = subprocess.PIPE)
 
     # p.terminate()
