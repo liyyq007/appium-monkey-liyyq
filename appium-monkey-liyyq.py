@@ -24,6 +24,8 @@ PATH = lambda p: os.path.abspath(
 )
 
 FILE=os.getcwd()+'\\log\\'
+if not os.path.isdir(FILE):
+    os.mkdir(FILE)
 now = time.strftime("%Y-%m-%d-%H_%M_%S",time.localtime(time.time()))
 filename =now+u"运行log.txt"
 
@@ -128,10 +130,6 @@ t = time.time()
 #     print driver
 #     return driver
 
-
-
-
-
 def run_case():
     global driver
     # lisst=driver.find_elements_by_xpath('//*')#展示全部xpath路径
@@ -157,7 +155,6 @@ def run_case():
     count = 0
     error_count=0
     while (count < int(x)):
-
     # while True:
         try:
             # time.sleep(1)
